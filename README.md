@@ -1,4 +1,4 @@
-# RNASeq Data Analysis Pipeline
+# Scripts and Archive for RNASeq Analysis
 
 # Description
 
