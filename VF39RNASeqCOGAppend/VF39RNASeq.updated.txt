@@ -1,0 +1,2593 @@
+2513709537	877	722	35	392	0.1	25.1	COG0265	Trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain
+2513709314	172	161	15	102	0.1	11.5	COG0841	Cation/multidrug efflux pump
+2513709328	6469	5336	1133	6003	0.2	5.7	COG0265	Trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain
+2513709313	234	187	44	159	0.3	5.3	COG0845	Membrane-fusion protein
+2513709326	300	262	58	251	0.2	5.2	COG0642	Signal transduction histidine kinase
+2513709327	1227	1153	253	1243	0.2	4.9	COG0745	Response regulators consisting of a CheY-like receiver domain and a winged-helix DNA-binding domain
+2513711886	91	53	23	38	0.6	4.0	COG1028	Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)
+2513709918	61	56	15	11	1.4	4.0	COG3616	Predicted amino acid aldolase or racemase
+2513709909	58	58	15	23	0.6	4.0	COG1653	ABC-type sugar transport system, periplasmic component
+2513708460	87	75	23	91	0.3	3.7	COG4122	Predicted O-methyltransferase
+2513712331	47	39	13	71	0.2	3.6	COG1853	Conserved protein/domain typically associated with flavoprotein oxygenases, DIM6/NTAB family
+2513713491	80	88	22	49	0.5	3.6	COG0028	Thiamine pyrophosphate-requiring enzymes [acetolactate synthase, pyruvate dehydrogenase (cytochrome), glyoxylate carboligase, phosphonopyruvate decarboxylase]
+2513712181	43	43	12	55	0.2	3.5	COG0834	ABC-type amino acid transport/signal transduction systems, periplasmic component/domain
+2513708185	6947	6229	1977	3948	0.5	3.5	COG5455	Predicted integral membrane protein
+2513711841	206	175	59	113	0.5	3.5	COG0745	Response regulators consisting of a CheY-like receiver domain and a winged-helix DNA-binding domain
+2513710615	278	256	80	302	0.3	3.5	COG3946	Type IV secretory pathway, VirJ component
+2513712201	71	63	21	123	0.2	3.4	COG1052	Lactate dehydrogenase and related dehydrogenases
+2513714070	258	275	77	370	0.2	3.3	COG0789	Predicted transcriptional regulators
+2513709130	191	137	58	205	0.3	3.3	COG3837	Uncharacterized conserved protein, contains double-stranded beta-helix domain
+2513709131	34	27	10	29	0.4	3.2	COG1670	Acetyltransferases, including N-acetylases of ribosomal proteins
+2513708358	176	149	55	165	0.3	3.2	COG3485	Protocatechuate 3,4-dioxygenase beta subunit
+2513712712	101	99	32	112	0.3	3.2	COG5564	Predicted TIM-barrel enzyme, possibly a dioxygenase
+2513714071	497	395	160	463	0.3	3.1	COG2217	Cation transport ATPase
+2513709929	57	52	19	26	0.7	3.1	COG0300	Short-chain dehydrogenases of various substrate specificities
+2513709906	87	85	28	30	1.0	3.1	COG0673	Predicted dehydrogenases and related proteins
+2513712336	31	28	10	43	0.2	3.0	COG4521	ABC-type taurine transport system, periplasmic component
+2513711433	664	692	221	1473	0.2	3.0	COG0834	ABC-type amino acid transport/signal transduction systems, periplasmic component/domain
+2513711065	28	29	10	53	0.2	2.9	COG1052	Lactate dehydrogenase and related dehydrogenases
+2513711840	56	52	20	55	0.4	2.8	COG0642	Signal transduction histidine kinase
+2513713984	1957	1825	693	2507	0.3	2.8	COG1464	ABC-type metal ion transport system, periplasmic component/surface antigen
+2513714069	30	26	11	41	0.3	2.8	COG2081	Predicted flavoproteins
+2513714069	30	26	11	41	0	2.8	COG2081	Predicted flavoproteins
+2513712332	62	52	23	81	0.3	2.7	COG0596	Predicted hydrolases or acyltransferases (alpha/beta hydrolase superfamily)
+2513712332	62	52	23	81	0	2.7	COG0596	Predicted hydrolases or acyltransferases (alpha/beta hydrolase superfamily)
+2513709440	99	83	37	68	0.5	2.6	COG0625	Glutathione S-transferase
+2513709440	99	83	37	68	1	2.6	COG0625	Glutathione S-transferase
+2513711399	130	139	50	272	0.2	2.6	COG1820	N-acetylglucosamine-6-phosphate deacetylase
+2513711399	130	139	50	272	0	2.6	COG1820	N-acetylglucosamine-6-phosphate deacetylase
+2513709783	148	131	57	271	0.2	2.6	COG2608	Copper chaperone
+2513709783	148	131	57	271	0	2.6	COG2608	Copper chaperone
+2513707756	221	204	85	310	0.3	2.6	COG3764	Sortase (surface protein transpeptidase)
+2513707756	221	204	85	310	0	2.6	COG3764	Sortase (surface protein transpeptidase)
+2513709527	594	672	227	958	0.2	2.6	COG2895	GTPases - Sulfate adenylate transferase subunit 1
+2513709527	594	672	227	958	0	2.6	COG2895	GTPases - Sulfate adenylate transferase subunit 1
+2513710441	717	711	278	1031	0.3	2.6	COG1028	Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)
+2513710441	717	711	278	1031	0	2.6	COG1028	Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)
+2513711435	78	79	31	135	0.2	2.5	COG1126	ABC-type polar amino acid transport system, ATPase component
+2513711435	78	79	31	135	0	2.5	COG1126	ABC-type polar amino acid transport system, ATPase component
+2513710064	52	45	21	91	0.2	2.5	COG2217	Cation transport ATPase
+2513710064	52	45	21	91	0	2.5	COG2217	Cation transport ATPase
+2513708265	41	41	16	76	0.2	2.5	COG1940	Transcriptional regulator/sugar kinase
+2513708265	41	41	16	76	0	2.5	COG1940	Transcriptional regulator/sugar kinase
+2513712200	26	31	11	44	0.2	2.5	COG1028	Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)
+2513712200	26	31	11	44	0	2.5	COG1028	Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)
+2513708388	84	65	34	84	0.4	2.4	COG1846	Transcriptional regulators
+2513708388	84	65	34	84	0	2.4	COG1846	Transcriptional regulators
+2513711822	30	32	12	44	0.3	2.4	COG0640	Predicted transcriptional regulators
+2513711822	30	32	12	44	0	2.4	COG0640	Predicted transcriptional regulators
+2513708441	195	201	80	299	0.3	2.4	COG4102	Uncharacterized protein conserved in bacteria
+2513708441	195	201	80	299	0	2.4	COG4102	Uncharacterized protein conserved in bacteria
+2513711875	42	33	17	62	0.3	2.4	COG3576	Predicted flavin-nucleotide-binding protein structurally related to pyridoxine 5'-phosphate oxidase
+2513711875	42	33	17	62	0	2.4	COG3576	Predicted flavin-nucleotide-binding protein structurally related to pyridoxine 5'-phosphate oxidase
+2513708148	113	123	47	101	0.5	2.4	COG2814	Arabinose efflux permease
+2513708148	113	123	47	101	0	2.4	COG2814	Arabinose efflux permease
+2513711372	43	46	18	192	0.1	2.4	COG0747	ABC-type dipeptide transport system, periplasmic component
+2513711372	43	46	18	192	0	2.4	COG0747	ABC-type dipeptide transport system, periplasmic component
+2513708122	270	339	113	292	0.4	2.4	COG0028	Thiamine pyrophosphate-requiring enzymes [acetolactate synthase, pyruvate dehydrogenase (cytochrome), glyoxylate carboligase, phosphonopyruvate decarboxylase]
+2513708122	270	339	113	292	0	2.4	COG0028	Thiamine pyrophosphate-requiring enzymes [acetolactate synthase, pyruvate dehydrogenase (cytochrome), glyoxylate carboligase, phosphonopyruvate decarboxylase]
+2513707743	131	153	55	103	0.5	2.4	COG1902	NADH:flavin oxidoreductases, Old Yellow Enzyme family
+2513707743	131	153	55	103	1	2.4	COG1902	NADH:flavin oxidoreductases, Old Yellow Enzyme family
+2513707153	41	34	18	12	1.5	2.3	COG0262	Dihydrofolate reductase
+2513707153	41	34	18	12	2	2.3	COG0262	Dihydrofolate reductase
+2513711434	89	93	38	193	0.2	2.3	COG0765	ABC-type amino acid transport system, permease component
+2513711434	89	93	38	193	0	2.3	COG0765	ABC-type amino acid transport system, permease component
+2513709601	72	56	31	64	0.5	2.3	COG0640	Predicted transcriptional regulators
+2513709601	72	56	31	64	0	2.3	COG0640	Predicted transcriptional regulators
+2513707391	227	225	98	142	0.7	2.3	COG1396	Predicted transcriptional regulators
+2513707391	227	225	98	142	1	2.3	COG1396	Predicted transcriptional regulators
+2513712987	42	35	18	71	0.3	2.3	COG4289	Uncharacterized protein conserved in bacteria
+2513712987	42	35	18	71	0	2.3	COG4289	Uncharacterized protein conserved in bacteria
+2513710192	334	365	146	462	0.3	2.3	COG0155	Sulfite reductase, beta subunit (hemoprotein)
+2513710192	334	365	146	462	0	2.3	COG0155	Sulfite reductase, beta subunit (hemoprotein)
+2513710616	292	302	128	335	0.4	2.3	COG2898	Uncharacterized conserved protein
+2513710616	292	302	128	335	0	2.3	COG2898	Uncharacterized conserved protein
+2513713045	22	26	10	36	0.3	2.3	COG0346	Lactoylglutathione lyase and related lyases
+2513713045	22	26	10	36	0	2.3	COG0346	Lactoylglutathione lyase and related lyases
+2513713117	102	87	45	97	0.5	2.3	COG3038	Cytochrome B561
+2513713117	102	87	45	97	0	2.3	COG3038	Cytochrome B561
+2513709307	30	32	14	30	0.5	2.2	COG1522	Transcriptional regulators
+2513709307	30	32	14	30	0	2.2	COG1522	Transcriptional regulators
+2513711235	61	43	27	93	0.3	2.2	COG0834	ABC-type amino acid transport/signal transduction systems, periplasmic component/domain
+2513711235	61	43	27	93	0	2.2	COG0834	ABC-type amino acid transport/signal transduction systems, periplasmic component/domain
+2513709525	1452	1718	655	2343	0.3	2.2	COG0175	3'-phosphoadenosine 5'-phosphosulfate sulfotransferase (PAPS reductase)/FAD synthetase and related enzymes
+2513709525	1452	1718	655	2343	0	2.2	COG0175	3'-phosphoadenosine 5'-phosphosulfate sulfotransferase (PAPS reductase)/FAD synthetase and related enzymes
+2513713841	31	22	14	19	0.7	2.2	COG2207	AraC-type DNA-binding domain-containing proteins
+2513713841	31	22	14	19	1	2.2	COG2207	AraC-type DNA-binding domain-containing proteins
+2513711820	30	21	13	39	0.3	2.2	COG2391	Predicted transporter component
+2513711820	30	21	13	39	0	2.2	COG2391	Predicted transporter component
+2513709526	756	787	344	1277	0.3	2.2	COG0175	3'-phosphoadenosine 5'-phosphosulfate sulfotransferase (PAPS reductase)/FAD synthetase and related enzymes
+2513709526	756	787	344	1277	0	2.2	COG0175	3'-phosphoadenosine 5'-phosphosulfate sulfotransferase (PAPS reductase)/FAD synthetase and related enzymes
+2513710225	58	61	27	103	0.3	2.2	COG3852	Signal transduction histidine kinase, nitrogen specific
+2513710225	58	61	27	103	0	2.2	COG3852	Signal transduction histidine kinase, nitrogen specific
+2513712373	24	21	11	47	0.2	2.2	COG1028	Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)
+2513712373	24	21	11	47	0	2.2	COG1028	Dehydrogenases with different specificities (related to short-chain alcohol dehydrogenases)
+2513710191	214	240	98	360	0.3	2.2	COG3749	Uncharacterized protein conserved in bacteria
+2513710191	214	240	98	360	0	2.2	COG3749	Uncharacterized protein conserved in bacteria
+2513711064	27	28	12	67	0.2	2.2	COG1123	ATPase components of various ABC-type transport systems, contain duplicated ATPase
+2513711064	27	28	12	67	0	2.2	COG1123	ATPase components of various ABC-type transport systems, contain duplicated ATPase
+2513707801	208	172	96	199	0.5	2.2	COG1132	ABC-type multidrug transport system, ATPase and permease components
+2513707801	208	172	96	199	0	2.2	COG1132	ABC-type multidrug transport system, ATPase and permease components
+2513709840	90	83	41	117	0.4	2.2	COG3964	Predicted amidohydrolase
+2513709840	90	83	41	117	0	2.2	COG3964	Predicted amidohydrolase
+2513709603	36	27	17	44	0.4	2.2	COG0625	Glutathione S-transferase
+2513709603	36	27	17	44	0	2.2	COG0625	Glutathione S-transferase
+2513710406	63	55	29	106	0.3	2.2	COG3707	Response regulator with putative antiterminator output domain
+2513710406	63	55	29	106	0	2.2	COG3707	Response regulator with putative antiterminator output domain
+2513711068	115	116	53	245	0.2	2.2	COG4948	L-alanine-DL-glutamate epimerase and related enzymes of enolase superfamily
+2513711068	115	116	53	245	0	2.2	COG4948	L-alanine-DL-glutamate epimerase and related enzymes of enolase superfamily
+2513710848	54	53	25	119	0.2	2.1	COG1070	Sugar (pentulose and hexulose) kinases
+2513710848	54	53	25	119	0	2.1	COG1070	Sugar (pentulose and hexulose) kinases
+2513707642	27	24	12	48	0.3	2.1	COG1175	ABC-type sugar transport systems, permease components
+2513707642	27	24	12	48	0	2.1	COG1175	ABC-type sugar transport systems, permease components
+2513709876	62	52	29	92	0.3	2.1	COG0747	ABC-type dipeptide transport system, periplasmic component
+2513709876	62	52	29	92	0	2.1	COG0747	ABC-type dipeptide transport system, periplasmic component
+2513711400	196	201	92	400	0.2	2.1	COG2222	Predicted phosphosugar isomerases
+2513711400	196	201	92	400	0	2.1	COG2222	Predicted phosphosugar isomerases
+2513709649	22	21	10	45	0.2	2.1	COG4598	ABC-type histidine transport system, ATPase component
+2513709649	22	21	10	45	0	2.1	COG4598	ABC-type histidine transport system, ATPase component
+2513709930	79	63	37	53	0.7	2.1	COG1733	Predicted transcriptional regulators
+2513709930	79	63	37	53	1	2.1	COG1733	Predicted transcriptional regulators
+2513709602	65	51	31	76	0.4	2.1	COG3832	Uncharacterized conserved protein
+2513709602	65	51	31	76	0	2.1	COG3832	Uncharacterized conserved protein
+2513710398	673	804	318	1240	0.3	2.1	COG0450	Peroxiredoxin
+2513710398	673	804	318	1240	0	2.1	COG0450	Peroxiredoxin
+2513713571	55	45	26	92	0.3	2.1	COG1192	ATPases involved in chromosome partitioning
+2513713571	55	45	26	92	0	2.1	COG1192	ATPases involved in chromosome partitioning
+2513708637	25	25	12	44	0.3	2.1	COG4154	Fucose dissimilation pathway protein FucU
+2513708637	25	25	12	44	0	2.1	COG4154	Fucose dissimilation pathway protein FucU
+2513712817	46	53	22	82	0.3	2.1	COG2011	ABC-type metal ion transport system, permease component
+2513712817	46	53	22	82	0	2.1	COG2011	ABC-type metal ion transport system, permease component
+2513712625	54	53	26	98	0.3	2.1	COG1312	D-mannonate dehydratase
+2513712625	54	53	26	98	0	2.1	COG1312	D-mannonate dehydratase
+2513713982	1778	1759	855	3186	0.3	2.1	COG0542	ATPases with chaperone activity, ATP-binding subunit
+2513713982	1778	1759	855	3186	0	2.1	COG0542	ATPases with chaperone activity, ATP-binding subunit
+2513713418	32	32	15	80	0.2	2.1	COG0757	3-dehydroquinate dehydratase II
+2513713418	32	32	15	80	0	2.1	COG0757	3-dehydroquinate dehydratase II
+2513712954	268	258	129	365	0.4	2.1	COG0459	Chaperonin GroEL (HSP60 family)
+2513712954	268	258	129	365	0	2.1	COG0459	Chaperonin GroEL (HSP60 family)
+2513712518	50	52	24	94	0.3	2.1	COG0583	Transcriptional regulator
+2513712518	50	52	24	94	0	2.1	COG0583	Transcriptional regulator
+2513713696	72	61	35	120	0.3	2.1	COG1475	Predicted transcriptional regulators
+2513713696	72	61	35	120	0	2.1	COG1475	Predicted transcriptional regulators
+2513713570	51	39	25	101	0.2	2.0	COG1475	Predicted transcriptional regulators
+2513713570	51	39	25	101	0	2.0	COG1475	Predicted transcriptional regulators
+2513711067	198	206	97	352	0.3	2.0	COG0129	Dihydroxyacid dehydratase/phosphogluconate dehydratase
+2513711067	198	206	97	352	0	2.0	COG0129	Dihydroxyacid dehydratase/phosphogluconate dehydratase
+2513711069	96	105	47	211	0.2	2.0	COG0684	Demethylmenaquinone methyltransferase
+2513711069	96	105	47	211	0	2.0	COG0684	Demethylmenaquinone methyltransferase
+2513710224	62	66	31	120	0.3	2.0	COG2204	Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+2513710224	62	66	31	120	0	2.0	COG2204	Response regulator containing CheY-like receiver, AAA-type ATPase, and DNA-binding domains
+2513711908	100	92	50	146	0.3	2.0	COG1082	Sugar phosphate isomerases/epimerases
+2513711908	100	92	50	146	0	2.0	COG1082	Sugar phosphate isomerases/epimerases
+2513708827	162	220	80	94	0.8	2.0	COG2259	Predicted membrane protein
+2513708827	162	220	80	94	1	2.0	COG2259	Predicted membrane protein
+2513711362	117	275	58	546	0.1	2.0	COG0347	Nitrogen regulatory protein PII
+2513711362	117	275	58	546	0	2.0	COG0347	Nitrogen regulatory protein PII
+2513713985	59	54	29	73	0.4	2.0	COG0431	Predicted flavoprotein
+2513713985	59	54	29	73	0	2.0	COG0431	Predicted flavoprotein
+2513712581	47	56	23	122	0.2	2.0	COG0601	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
+2513712581	47	56	23	122	0	2.0	COG0601	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
+2513712818	92	102	46	137	0.3	2.0	COG1135	ABC-type metal ion transport system, ATPase component
+2513712818	92	102	46	137	0	2.0	COG1135	ABC-type metal ion transport system, ATPase component
+2513708266	58	56	29	97	0.3	2.0	COG1653	ABC-type sugar transport system, periplasmic component
+2513708266	58	56	29	97	0	2.0	COG1653	ABC-type sugar transport system, periplasmic component
+2513709219	81	101	41	187	0.2	2.0	COG0215	Cysteinyl-tRNA synthetase
+2513709219	81	101	41	187	0	2.0	COG0215	Cysteinyl-tRNA synthetase
+2513712380	28	27	14	47	0.3	2.0	COG1653	ABC-type sugar transport system, periplasmic component
+2513712380	28	27	14	47	0	2.0	COG1653	ABC-type sugar transport system, periplasmic component
+2513710849	103	83	52	139	0.4	2.0	COG1879	ABC-type sugar transport system, periplasmic component
+2513710849	103	83	52	139	0	2.0	COG1879	ABC-type sugar transport system, periplasmic component
+2513713958	211	217	106	278	0.4	2.0	COG2271	Sugar phosphate permease
+2513713958	211	217	106	278	0	2.0	COG2271	Sugar phosphate permease
+2513711927	21	21	11	59	0.2	2.0	COG1454	Alcohol dehydrogenase, class IV
+2513711927	21	21	11	59	0	2.0	COG1454	Alcohol dehydrogenase, class IV
+2513711361	118	239	60	508	0.1	2.0	COG0004	Ammonia permease
+2513711361	118	239	60	508	0	2.0	COG0004	Ammonia permease
+2513713697	85	75	43	126	0.3	2.0	COG1192	ATPases involved in chromosome partitioning
+2513713697	85	75	43	126	0	2.0	COG1192	ATPases involved in chromosome partitioning
+2513708984	881	638	448	457	1.0	2.0	COG0089	Ribosomal protein L23
+2513708984	881	638	448	457	1	2.0	COG0089	Ribosomal protein L23
+2513714038	35	35	18	50	0.3	2.0	COG0673	Predicted dehydrogenases and related proteins
+2513714038	35	35	18	50	0	2.0	COG0673	Predicted dehydrogenases and related proteins
+2513709880	24	18	12	32	0.4	2.0	COG1921	Selenocysteine synthase [seryl-tRNASer selenium transferase]
+2513709880	24	18	12	32	0	2.0	COG1921	Selenocysteine synthase [seryl-tRNASer selenium transferase]
+2513710199	91	101	47	100	0.5	2.0	COG0115	Branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase
+2513710199	91	101	47	100	0	2.0	COG0115	Branched-chain amino acid aminotransferase/4-amino-4-deoxychorismate lyase
+2513713497	10	11	18	20	1	0.5	COG1879	ABC-type sugar transport system, periplasmic component
+2513712655	138	131	251	210	1	0.5	COG2823	Predicted periplasmic or secreted lipoprotein
+2513712532	17	20	30	25	1	0.5	COG4558	ABC-type hemin transport system, periplasmic component
+2513709441	20	25	36	28	1	0.5	COG0171	NAD synthase
+2513712995	15	12	27	18	1	0.5	COG1175	ABC-type sugar transport systems, permease components
+2513713399	250	273	459	475	1	0.5	COG1132	ABC-type multidrug transport system, ATPase and permease components
+2513709514	85	79	157	79	2	0.5	COG3247	Uncharacterized conserved protein
+2513712017	17	19	32	42	1	0.5	COG1309	Transcriptional regulator
+2513708564	33	27	60	58	1	0.5	COG0664	cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases
+2513709578	12	11	22	20	1	0.5	COG3119	Arylsulfatase A and related enzymes
+2513711408	30	34	56	51	1	0.5	COG1846	Transcriptional regulators
+2513711834	19	19	36	29	1	0.5	COG3049	Penicillin V acylase and related amidases
+2513708010	13	11	25	25	1	0.5	COG1309	Transcriptional regulator
+2513712221	22	20	41	29	1	0.5	COG1063	Threonine dehydrogenase and related Zn-dependent dehydrogenases
+2513714251	19	18	35	32	1	0.5	COG1877	Trehalose-6-phosphatase
+2513707838	75	146	142	174	1	0.5	COG0780	Enzyme related to GTP cyclohydrolase I
+2513710552	25	16	47	49	1	0.5	COG3181	Uncharacterized protein conserved in bacteria
+2513708572	18	24	35	27	1	0.5	COG3324	Predicted enzyme related to lactoylglutathione lyase
+2513708153	42	49	80	57	1	0.5	COG1252	NADH dehydrogenase, FAD-containing subunit
+2513713128	211	245	401	209	2	0.5	COG0039	Malate/lactate dehydrogenases
+2513713645	61	65	117	115	1	0.5	COG0241	Histidinol phosphatase and related phosphatases
+2513708658	54	72	103	57	2	0.5	COG0108	3,4-dihydroxy-2-butanone 4-phosphate synthase
+2513710655	22	27	41	36	1	0.5	COG0840	Methyl-accepting chemotaxis protein
+2513712639	23	21	45	32	1	0.5	COG1566	Multidrug resistance efflux pump
+2513708213	17	22	33	22	1	0.5	COG0054	Riboflavin synthase beta-chain
+2513709364	17	17	32	30	1	0.5	COG3607	Predicted lactoylglutathione lyase
+2513709821	16	15	31	24	1	0.5	COG0411	ABC-type branched-chain amino acid transport systems, ATPase component
+2513707147	51	40	101	139	1	0.5	COG1960	Acyl-CoA dehydrogenases
+2513707257	185	144	362	259	1	0.5	COG1879	ABC-type sugar transport system, periplasmic component
+2513713211	30	31	58	41	1	0.5	COG0395	ABC-type sugar transport system, permease component
+2513708104	96	110	187	212	1	0.5	COG0277	FAD/FMN-containing dehydrogenases
+2513712643	29	29	57	43	1	0.5	COG0265	Trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain
+2513711987	62	212	121	154	1	0.5	COG0600	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component
+2513709383	19	23	37	36	1	0.5	COG5330	Uncharacterized protein conserved in bacteria
+2513713822	18	13	35	34	1	0.5	COG5618	Predicted periplasmic lipoprotein
+2513711240	16	18	31	33	1	0.5	COG1309	Transcriptional regulator
+2513710211	145	133	285	228	1	0.5	COG3439	Uncharacterized conserved protein
+2513711639	54	61	108	117	1	0.5	COG0406	Fructose-2,6-bisphosphatase
+2513710548	101	53	199	59	3	0.5	COG1108	ABC-type Mn2+/Zn2+ transport systems, permease components
+2513711561	338	354	671	1005	1	0.5	COG0499	S-adenosylhomocysteine hydrolase
+2513712875	11	10	22	15	1	0.5	COG1902	NADH:flavin oxidoreductases, Old Yellow Enzyme family
+2513707868	11	13	22	25	1	0.5	COG0444	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
+2513710240	209	344	417	305	1	0.5	COG1071	Pyruvate/2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, eukaryotic type, alpha subunit
+2513712187	55	63	110	128	1	0.5	COG0591	Na+/proline symporter
+2513707170	13	16	26	28	1	0.5	COG2197	Response regulator containing a CheY-like receiver domain and an HTH DNA-binding domain
+2513711638	66	59	132	88	2	0.5	COG2230	Cyclopropane fatty acid synthase and related methyltransferases
+2513710851	161	191	326	286	1	0.5	COG1566	Multidrug resistance efflux pump
+2513712522	20	23	40	48	1	0.5	COG0167	Dihydroorotate dehydrogenase
+2513713891	97	63	198	237	1	0.5	COG3916	N-acyl-L-homoserine lactone synthetase
+2513712387	22	19	44	52	1	0.5	COG1879	ABC-type sugar transport system, periplasmic component
+2513708719	12	14	25	20	1	0.5	COG2814	Arabinose efflux permease
+2513712108	10	11	21	13	2	0.5	COG1173	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
+2513709234	11	15	22	13	2	0.5	COG1051	ADP-ribose pyrophosphatase
+2513714064	31	42	66	73	1	0.5	COG0693	Putative intracellular protease/amidase
+2513708125	18	20	38	33	1	0.5	COG1280	Putative threonine efflux protein
+2513712604	101	114	212	105	2	0.5	COG0395	ABC-type sugar transport system, permease component
+2513709490	47	46	98	64	2	0.5	COG1376	Uncharacterized protein conserved in bacteria
+2513710657	47	53	99	83	1	0.5	COG0840	Methyl-accepting chemotaxis protein
+2513713212	26	35	54	27	2	0.5	COG1175	ABC-type sugar transport systems, permease components
+2513707958	17	18	37	29	1	0.5	COG1216	Predicted glycosyltransferases
+2513714024	13	12	27	36	1	0.5	COG0395	ABC-type sugar transport system, permease component
+2513713170	29	34	62	39	2	0.5	COG0444	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
+2513712682	49	46	105	79	1	0.5	COG0664	cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases
+2513712607	63	67	135	26	5	0.5	COG3839	ABC-type sugar transport systems, ATPase components
+2513710239	171	261	366	259	1	0.5	COG0022	Pyruvate/2-oxoglutarate dehydrogenase complex, dehydrogenase (E1) component, eukaryotic type, beta subunit
+2513714063	17	19	37	44	1	0.5	COG4321	Uncharacterized protein related to arylsulfate sulfotransferase involved in siderophore biosynthesis
+2513707258	34	29	73	51	1	0.5	COG1129	ABC-type sugar transport system, ATPase component
+2513712523	21	20	45	53	1	0.5	COG0493	NADPH-dependent glutamate synthase beta chain and related oxidoreductases
+2513710432	105	130	228	180	1	0.5	COG0686	Alanine dehydrogenase
+2513710764	53	77	116	128	1	0.5	COG2899	Uncharacterized protein conserved in bacteria
+2513713176	15	20	32	39	1	0.5	COG4269	Predicted membrane protein
+2513712605	68	74	148	65	2	0.5	COG1175	ABC-type sugar transport systems, permease components
+2513710656	18	20	40	30	1	0.5	COG0840	Methyl-accepting chemotaxis protein
+2513711103	34	32	75	48	2	0.4	COG1879	ABC-type sugar transport system, periplasmic component
+2513708144	19	17	42	48	1	0.4	COG0789	Predicted transcriptional regulators
+2513709827	35	67	79	112	1	0.4	COG3971	2-keto-4-pentenoate hydratase
+2513707997	100	107	229	300	1	0.4	COG3672	Predicted periplasmic protein
+2513712109	16	17	36	21	2	0.4	COG0601	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
+2513713819	19	16	44	26	2	0.4	COG0673	Predicted dehydrogenases and related proteins
+2513710659	37	45	86	75	1	0.4	COG0643	Chemotaxis protein histidine kinase and related kinases
+2513710471	17	16	40	37	1	0.4	COG0642	Signal transduction histidine kinase
+2513713903	47	55	110	89	1	0.4	COG2764	Uncharacterized protein conserved in bacteria
+2513709733	13	20	29	60	0	0.4	COG0183	Acetyl-CoA acetyltransferase
+2513713820	15	15	36	22	2	0.4	COG1172	Ribose/xylose/arabinose/galactoside ABC-type transport systems, permease components
+2513710491	97	99	226	196	1	0.4	COG3186	Phenylalanine-4-hydroxylase
+2513712603	71	100	168	84	2	0.4	COG5477	Predicted small integral membrane protein
+2513713171	27	28	65	35	2	0.4	COG1173	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
+2513713821	14	11	34	22	2	0.4	COG1129	ABC-type sugar transport system, ATPase component
+2513709822	14	13	33	25	1	0.4	COG0410	ABC-type branched-chain amino acid transport systems, ATPase component
+2513713084	23	31	55	38	1	0.4	COG0640	Predicted transcriptional regulators
+2513711988	78	228	189	257	1	0.4	COG1116	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component
+2513710581	124	268	301	300	1	0.4	COG1932	Phosphoserine aminotransferase
+2513712602	327	373	795	540	1	0.4	COG1653	ABC-type sugar transport system, periplasmic component
+2513712606	88	97	215	55	4	0.4	COG3839	ABC-type sugar transport systems, ATPase components
+2513707631	20	21	48	24	2	0.4	COG0531	Amino acid transporters
+2513710550	18	19	45	39	1	0.4	COG3333	Uncharacterized protein conserved in bacteria
+2513709632	14	16	35	51	1	0.4	COG1228	Imidazolonepropionase and related amidohydrolases
+2513713172	29	31	73	36	2	0.4	COG0601	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
+2513709346	58	107	149	167	1	0.4	COG5349	Uncharacterized protein conserved in bacteria
+2513711749	84	134	213	102	2	0.4	COG0637	Predicted phosphatase/phosphohexomutase
+2513714065	15	17	38	33	1	0.4	COG3564	Uncharacterized protein conserved in bacteria
+2513710059	20	21	51	63	1	0.4	COG0670	Integral membrane protein, interacts with FtsH
+2513709824	16	14	41	21	2	0.4	COG4177	ABC-type branched-chain amino acid transport system, permease component
+2513713890	19	20	48	23	2	0.4	COG3293	Transposase and inactivated derivatives
+2513710658	36	44	95	78	1	0.4	COG0835	Chemotaxis signal transduction protein
+2513713213	97	172	254	133	2	0.4	COG1653	ABC-type sugar transport system, periplasmic component
+2513712444	79	192	206	276	1	0.4	COG1846	Transcriptional regulators
+2513713429	13	11	33	30	1	0.4	COG0599	Uncharacterized homolog of gamma-carboxymuconolactone decarboxylase subunit
+2513709376	23	20	60	34	2	0.4	COG0861	Membrane protein TerC, possibly involved in tellurium resistance
+2513710470	22	22	59	50	1	0.4	COG0664	cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases
+2513707259	46	45	123	58	2	0.4	COG1172	Ribose/xylose/arabinose/galactoside ABC-type transport systems, permease components
+2513709726	12	12	33	31	1	0.4	COG4189	Predicted transcriptional regulator
+2513714066	71	71	191	209	1	0.4	COG1012	NAD-dependent aldehyde dehydrogenases
+2513713177	45	155	122	343	0	0.4	COG1012	NAD-dependent aldehyde dehydrogenases
+2513707260	28	24	77	29	3	0.4	COG1063	Threonine dehydrogenase and related Zn-dependent dehydrogenases
+2513710944	14	14	39	58	1	0.4	COG1653	ABC-type sugar transport system, periplasmic component
+2513708463	24	29	66	84	1	0.4	COG0596	Predicted hydrolases or acyltransferases (alpha/beta hydrolase superfamily)
+2513709823	14	14	38	23	2	0.4	COG0559	Branched-chain amino acid ABC-type transport system, permease components
+2513710861	31	30	90	59	2	0.3	COG0687	Spermidine/putrescine-binding periplasmic protein
+2513711989	153	416	440	381	1	0.3	COG0715	ABC-type nitrate/sulfonate/bicarbonate transport systems, periplasmic components
+2513712601	47	60	136	83	2	0.3	COG0554	Glycerol kinase
+2513712515	18	14	53	41	1	0.3	COG1309	Transcriptional regulator
+2513713005	15	48	44	55	1	0.3	COG0160	4-aminobutyrate aminotransferase and related aminotransferases
+2513712870	17	17	53	35	2	0.3	COG0491	Zn-dependent hydrolases, including glyoxylases
+2513709826	12	12	38	21	2	0.3	COG2084	3-hydroxyisobutyrate dehydrogenase and related beta-hydroxyacid dehydrogenases
+2513712864	43	51	139	105	1	0.3	COG1309	Transcriptional regulator
+2513713290	13	32	44	70	1	0.3	COG0277	FAD/FMN-containing dehydrogenases
+2513707630	13	14	45	15	3	0.3	COG0174	Glutamine synthetase
+2513711584	54	157	181	371	0	0.3	COG2225	Malate synthase
+2513713291	14	33	47	58	1	0.3	COG0277	FAD/FMN-containing dehydrogenases
+2513713494	24	22	84	96	1	0.3	COG2814	Arabinose efflux permease
+2513710037	18	15	67	53	1	0.3	COG0379	Quinolinate synthase
+2513713495	15	14	61	41	1	0.2	COG0146	N-methylhydantoinase B/acetone carboxylase, alpha subunit
+2513709962	90	92	382	185	2	0.2	COG1278	Cold shock proteins
+2513714291	33	35	145	151	1	0.2	COG2132	Putative multicopper oxidases
+2513707839	16	76	69	95	1	0.2	COG0053	Predicted Co/Zn/Cd cation transporters
+2513707328	19	22	99	72	1	0.2	COG1278	Cold shock proteins
+2513710714	24	30	143	173	1	0.2	COG0385	Predicted Na+-dependent transporter
+2513707665	81	72	656	1305	1	0.1	COG3916	N-acyl-L-homoserine lactone synthetase
+2513714464	84	98	784	330	2	0.1	COG3637	Opacity protein and related surface antigens
+### COG Genome Histogram ###
+COG3011	1
+COG3019	1
+COG4710	1
+COG4711	1
+COG1874	2
+COG2388	1
+COG1871	1
+COG1872	1
+COG1873	1
+COG1878	1
+COG1879	33
+COG0723	1
+COG0722	1
+COG0721	1
+COG0720	1
+COG0726	4
+COG0725	2
+COG0729	1
+COG0728	1
+COG3708	1
+COG3709	1
+COG3704	1
+COG3705	1
+COG3706	2
+COG3707	2
+COG3701	1
+COG3703	2
+COG5395	1
+COG5394	1
+COG5397	1
+COG0380	1
+COG0383	1
+COG0382	2
+COG0385	1
+COG0384	2
+COG0387	2
+COG0438	13
+COG0389	4
+COG0388	5
+COG0435	2
+COG0434	1
+COG0433	3
+COG0432	1
+COG0431	6
+COG4549	1
+COG4547	1
+COG4544	2
+COG4541	1
+COG2721	1
+COG3639	2
+COG2723	1
+COG1529	3
+COG1522	19
+COG3631	2
+COG1526	1
+COG1525	2
+COG1702	1
+COG1251	1
+COG1252	1
+COG1253	2
+COG1254	2
+COG1476	1
+COG1256	2
+COG2873	2
+COG2872	1
+COG2875	1
+COG2877	1
+COG1092	1
+COG0659	2
+COG0658	1
+COG0653	1
+COG0652	2
+COG0651	3
+COG0650	1
+COG0657	8
+COG0656	4
+COG0655	3
+COG0654	8
+COG4093	1
+COG4094	1
+COG3525	2
+COG3526	1
+COG1415	1
+COG1410	1
+COG1418	1
+COG5570	1
+COG1678	1
+COG1679	1
+COG1677	1
+COG1674	2
+COG5579	1
+COG5578	1
+COG1670	13
+COG1671	1
+COG5375	1
+COG4166	3
+COG4160	3
+COG1386	1
+COG1198	1
+COG5379	1
+COG1381	1
+COG1877	1
+COG2386	1
+COG3832	12
+COG3382	1
+COG3383	1
+COG3836	1
+COG3837	1
+COG3386	7
+COG3387	1
+COG1597	1
+COG3839	52
+COG0427	1
+COG5597	1
+COG1206	1
+COG1596	3
+COG2011	1
+COG2010	4
+COG2017	3
+COG0335	1
+COG4942	1
+COG4941	3
+COG0337	1
+COG4947	1
+COG4944	1
+COG0446	1
+COG4949	1
+COG4948	12
+COG0332	1
+COG5360	1
+COG0445	1
+COG2127	2
+COG2124	6
+COG2120	2
+COG2128	3
+COG0809	1
+COG4890	1
+COG2268	1
+COG2269	1
+COG2264	1
+COG2265	1
+COG2267	3
+COG2261	3
+COG2262	1
+COG3024	1
+COG3027	1
+COG3021	2
+COG3023	1
+COG4765	1
+COG4764	1
+COG1841	1
+COG1840	4
+COG0159	1
+COG1842	3
+COG1845	4
+COG1846	25
+COG2390	6
+COG2391	2
+COG0730	6
+COG0732	2
+COG0735	3
+COG0736	1
+COG0737	2
+COG0738	1
+COG0739	3
+COG4420	1
+COG4423	1
+COG3733	1
+COG3735	1
+COG3734	1
+COG3737	1
+COG3736	1
+COG5388	1
+COG5389	1
+COG5383	1
+COG5381	1
+COG5387	1
+COG5385	1
+COG0399	5
+COG0424	2
+COG0397	1
+COG0394	3
+COG0395	49
+COG0420	1
+COG4395	2
+COG3605	1
+COG3604	1
+COG3607	3
+COG4558	1
+COG3600	1
+COG3609	3
+COG4551	1
+COG4553	2
+COG1338	1
+COG2730	1
+COG0532	1
+COG1268	1
+COG0537	4
+COG1262	2
+COG0649	1
+COG1069	2
+COG0640	15
+COG1066	1
+COG0642	33
+COG0643	2
+COG0644	3
+COG0645	2
+COG1061	1
+COG0533	1
+COG1559	1
+COG1558	1
+COG1463	1
+COG3510	1
+COG3514	2
+COG1464	1
+COG1609	40
+COG1003	1
+COG5564	2
+COG5568	1
+COG1600	1
+COG1607	1
+COG1606	1
+COG1605	1
+COG4172	2
+COG4176	5
+COG5361	4
+COG4174	1
+COG4175	4
+COG4178	3
+COG5368	2
+COG2867	1
+COG4225	2
+COG2862	1
+COG2860	1
+COG2861	1
+COG0439	2
+COG3800	1
+COG0386	1
+COG1117	2
+COG1116	8
+COG1113	1
+COG0436	6
+COG1118	1
+COG1286	1
+COG1284	1
+COG1283	1
+COG1282	2
+COG1281	1
+COG1280	13
+COG1289	1
+COG2008	1
+COG2009	1
+COG2001	1
+COG2002	2
+COG2003	1
+COG2005	1
+COG0142	3
+COG4950	1
+COG4952	1
+COG4953	1
+COG4954	1
+COG4957	1
+COG4959	1
+COG3288	1
+COG3280	1
+COG3285	2
+COG3638	1
+COG2137	1
+COG2131	1
+COG2132	4
+COG2133	1
+COG5607	1
+COG5606	2
+COG5605	1
+COG1523	2
+COG2259	6
+COG2258	1
+COG2255	1
+COG2256	1
+COG3637	7
+COG1250	4
+COG3038	3
+COG1706	1
+COG3030	1
+COG3034	1
+COG4778	1
+COG1704	1
+COG4770	5
+COG4774	1
+COG4775	1
+COG1858	1
+COG1859	1
+COG1853	8
+COG1850	1
+COG0708	3
+COG0259	1
+COG0705	2
+COG0256	1
+COG0255	1
+COG0706	1
+COG0253	1
+COG0251	14
+COG0702	13
+COG3720	1
+COG1319	1
+COG1091	1
+COG0419	1
+COG0418	1
+COG0411	8
+COG0410	9
+COG0413	2
+COG0412	4
+COG0415	1
+COG0414	1
+COG0416	1
+COG3613	1
+COG3616	2
+COG3618	5
+COG3619	1
+COG4564	1
+COG4567	2
+COG4566	6
+COG0099	1
+COG0098	1
+COG0094	1
+COG0097	1
+COG0096	1
+COG0091	1
+COG0090	1
+COG0093	1
+COG0092	1
+COG1278	10
+COG1279	1
+COG0670	2
+COG0673	30
+COG1272	1
+COG1273	4
+COG1270	1
+COG0679	2
+COG0678	1
+COG0077	1
+COG0076	1
+COG0075	1
+COG0074	1
+COG0073	1
+COG0072	1
+COG0071	5
+COG0070	1
+COG1074	1
+COG1076	1
+COG1070	6
+COG1071	2
+COG0079	4
+COG0078	2
+COG1472	4
+COG1473	5
+COG1475	8
+COG3508	1
+COG1477	1
+COG3506	1
+COG3507	1
+COG3504	2
+COG3505	3
+COG3502	1
+COG3503	1
+COG3501	1
+COG2928	1
+COG2927	1
+COG1610	1
+COG1611	2
+COG1612	1
+COG1613	1
+COG5351	1
+COG5350	1
+COG5352	1
+COG4189	1
+COG4188	1
+COG1414	7
+COG4181	1
+COG2813	1
+COG2812	1
+COG2816	1
+COG2814	39
+COG2819	1
+COG2818	1
+COG1104	1
+COG1101	1
+COG1108	4
+COG1109	1
+COG1294	1
+COG1295	2
+COG1296	1
+COG1290	1
+COG1291	1
+COG1298	1
+COG2030	6
+COG2032	1
+COG2038	1
+COG3293	4
+COG4965	2
+COG4964	1
+COG4961	6
+COG4960	1
+COG4963	1
+COG4962	4
+COG5618	2
+COG2109	1
+COG5616	14
+COG5611	2
+COG2246	2
+COG2244	5
+COG2242	1
+COG2243	2
+COG2240	1
+COG2249	3
+COG3344	1
+COG3346	2
+COG3347	1
+COG3342	1
+COG1917	6
+COG1672	1
+COG1914	2
+COG4987	1
+COG4989	1
+COG4988	1
+COG1828	1
+COG1820	1
+COG1826	1
+COG1825	1
+COG0718	1
+COG0719	2
+COG0248	1
+COG0249	1
+COG0712	1
+COG0713	1
+COG0246	2
+COG0711	2
+COG0240	1
+COG0717	1
+COG0714	3
+COG0243	3
+COG3753	1
+COG3752	1
+COG3750	1
+COG3757	3
+COG3755	1
+COG0740	3
+COG3758	1
+COG0743	1
+COG3195	1
+COG3194	1
+COG3197	1
+COG3509	1
+COG3191	1
+COG3193	1
+COG0297	1
+COG0296	4
+COG1942	2
+COG0747	30
+COG0294	1
+COG0406	6
+COG0407	1
+COG0404	8
+COG0405	3
+COG0402	7
+COG0400	2
+COG0401	1
+COG0408	1
+COG4575	1
+COG4573	2
+COG4571	1
+COG5654	2
+COG2759	1
+COG0088	1
+COG0089	1
+COG0082	1
+COG0080	1
+COG0081	1
+COG0086	1
+COG0087	1
+COG0084	1
+COG0662	3
+COG0663	1
+COG0661	1
+COG0667	25
+COG0664	12
+COG0665	19
+COG0668	7
+COG0669	1
+COG0064	1
+COG1048	1
+COG0066	1
+COG0067	1
+COG0060	1
+COG0061	1
+COG0063	1
+COG1593	4
+COG1040	1
+COG1043	1
+COG1042	2
+COG1045	2
+COG1044	1
+COG1595	13
+COG3088	1
+COG1448	2
+COG3572	1
+COG3571	1
+COG3570	1
+COG3577	2
+COG3576	4
+COG1442	2
+COG1621	1
+COG2939	1
+COG1622	3
+COG0521	1
+COG2935	1
+COG2936	1
+COG0261	1
+COG1629	2
+COG2931	1
+COG2932	1
+COG5349	4
+COG4196	1
+COG5345	1
+COG5342	2
+COG4191	2
+COG2801	3
+COG3405	1
+COG2807	1
+COG3409	1
+COG3408	1
+COG1348	1
+COG1131	4
+COG1133	1
+COG1132	11
+COG1135	1
+COG1134	1
+COG1137	1
+COG1136	6
+COG1138	1
+COG0122	1
+COG1028	79
+COG0129	6
+COG2020	4
+COG2021	1
+COG2026	1
+COG1432	1
+COG2025	3
+COG0519	1
+COG4973	2
+COG0049	1
+COG4976	2
+COG4977	11
+COG4974	6
+COG0046	1
+COG3971	1
+COG0515	2
+COG0526	2
+COG0516	1
+COG2719	1
+COG5621	1
+COG0510	3
+COG2114	17
+COG5622	2
+COG2113	5
+COG2110	1
+COG2111	1
+COG0041	1
+COG2230	3
+COG2239	2
+COG1904	1
+COG3378	1
+COG1902	5
+COG3831	2
+COG4994	1
+COG0190	1
+COG4991	3
+COG4992	2
+COG4993	2
+COG2346	2
+COG2345	1
+COG2343	1
+COG0192	1
+COG3794	1
+COG1830	3
+COG1832	1
+COG1835	8
+COG0195	1
+COG0279	1
+COG0278	1
+COG0196	1
+COG0271	1
+COG0272	1
+COG0275	1
+COG0274	2
+COG0277	9
+COG0276	1
+COG3740	1
+COG3741	2
+COG3742	1
+COG3743	1
+COG3744	2
+COG3745	1
+COG3748	1
+COG3749	1
+COG4813	1
+COG3182	1
+COG3180	1
+COG3181	4
+COG3186	1
+COG3184	1
+COG3185	3
+COG3938	2
+COG0473	3
+COG0472	1
+COG0471	3
+COG0476	1
+COG0475	1
+COG0474	2
+COG0479	1
+COG3932	2
+COG2764	6
+COG2766	1
+COG2761	1
+COG1057	1
+COG1054	1
+COG1052	5
+COG1053	2
+COG1051	6
+COG0697	9
+COG0695	2
+COG0694	1
+COG0693	6
+COG0692	1
+COG1058	1
+COG0690	1
+COG0051	1
+COG1589	1
+COG0053	2
+COG0052	1
+COG0055	1
+COG0054	2
+COG0509	1
+COG0508	3
+COG0059	1
+COG0058	1
+COG0505	1
+COG0504	1
+COG0503	3
+COG1585	2
+COG0501	1
+COG1587	1
+COG0630	1
+COG4215	3
+COG4214	3
+COG4213	3
+COG3568	4
+COG3569	1
+COG0181	1
+COG0180	1
+COG0187	2
+COG0186	1
+COG0185	1
+COG0184	1
+COG1452	1
+COG0189	1
+COG0188	2
+COG3564	1
+COG1454	8
+COG2909	1
+COG2908	1
+COG2900	1
+COG1638	4
+COG2902	1
+COG2907	2
+COG3415	2
+COG5338	1
+COG5331	1
+COG5330	2
+COG5336	1
+COG0244	1
+COG3416	1
+COG3412	1
+COG2835	1
+COG2834	1
+COG4321	2
+COG2833	1
+COG0247	1
+COG0241	1
+COG0242	2
+COG1129	25
+COG1126	15
+COG1127	1
+COG1124	3
+COG1125	2
+COG1122	1
+COG1123	12
+COG1120	5
+COG1121	3
+COG0742	1
+COG0860	1
+COG0861	3
+COG0863	1
+COG3980	1
+COG1220	1
+COG0511	3
+COG3964	1
+COG3965	1
+COG5634	1
+COG3967	1
+COG3962	1
+COG3963	2
+COG1940	14
+COG2169	1
+COG3846	1
+COG2826	1
+COG2160	1
+COG2166	1
+COG4692	1
+COG4691	1
+COG1946	1
+COG2220	4
+COG2222	3
+COG2223	4
+COG2224	1
+COG2225	1
+COG2226	4
+COG2227	1
+COG1932	1
+COG1934	1
+COG1937	2
+COG1936	1
+COG1804	1
+COG1807	3
+COG1806	1
+COG1801	1
+COG1803	1
+COG1802	28
+COG2354	1
+COG2355	1
+COG2350	3
+COG2351	1
+COG2353	1
+COG0425	1
+COG3770	1
+COG3773	1
+COG3772	1
+COG3178	1
+COG3176	2
+COG3175	1
+COG3174	1
+COG3173	1
+COG0460	1
+COG0461	1
+COG0462	2
+COG0463	7
+COG0465	2
+COG0466	1
+COG0467	2
+COG0468	1
+COG0469	1
+COG2771	12
+COG0266	1
+COG0267	1
+COG0264	1
+COG0265	8
+COG0262	5
+COG0263	1
+COG0260	2
+COG5552	1
+COG0268	1
+COG1023	1
+COG1020	1
+COG0688	1
+COG0689	1
+COG1024	10
+COG0684	5
+COG0685	1
+COG0686	1
+COG0687	13
+COG0681	1
+COG0682	1
+COG0683	12
+COG4275	1
+COG0518	2
+COG5039	1
+COG0048	1
+COG0766	1
+COG0514	1
+COG0047	1
+COG0044	6
+COG0045	1
+COG0042	2
+COG4277	1
+COG0040	1
+COG0513	4
+COG4208	1
+COG3550	2
+COG3553	1
+COG3558	1
+COG3797	2
+COG0191	1
+COG3795	5
+COG0193	1
+COG0194	1
+COG0761	1
+COG3791	14
+COG0197	1
+COG0198	1
+COG0199	1
+COG3798	1
+COG1485	1
+COG1487	6
+COG1486	3
+COG1488	1
+COG1335	9
+COG5328	1
+COG5321	1
+COG2828	1
+COG3422	1
+COG3424	1
+COG3427	1
+COG2823	4
+COG4332	1
+COG2821	1
+COG4334	1
+COG4335	1
+COG4336	1
+COG1159	1
+COG1158	1
+COG1157	1
+COG1154	1
+COG5255	1
+COG2917	1
+COG2913	1
+COG2911	1
+COG2919	1
+COG0858	1
+COG0851	1
+COG0850	1
+COG0852	1
+COG0855	1
+COG0854	1
+COG2755	4
+COG4898	1
+COG5642	2
+COG5640	1
+COG3957	2
+COG3959	1
+COG3958	1
+COG5649	2
+COG5485	1
+COG5481	1
+COG5480	1
+COG5482	1
+COG2171	1
+COG5489	1
+COG5488	1
+COG2177	1
+COG0002	1
+COG4689	2
+COG1926	1
+COG1925	2
+COG1922	1
+COG1923	1
+COG1921	1
+COG2215	2
+COG2217	7
+COG2216	1
+COG2212	1
+COG3319	1
+COG0065	1
+COG3311	1
+COG3316	2
+COG1598	1
+COG1816	1
+COG1814	1
+COG1815	1
+COG2361	1
+COG2360	1
+COG2363	1
+COG1819	1
+COG2367	2
+COG0069	2
+COG3768	1
+COG3760	1
+COG3761	1
+COG3766	1
+COG3764	1
+COG3169	1
+COG0459	5
+COG0458	1
+COG0329	15
+COG0328	2
+COG0325	1
+COG0324	1
+COG0451	29
+COG0450	1
+COG0321	1
+COG0320	1
+COG4529	3
+COG4525	1
+COG4521	1
+COG4520	1
+COG4589	1
+COG0213	1
+COG0212	1
+COG0211	1
+COG0210	2
+COG0217	1
+COG0216	1
+COG0215	1
+COG3090	3
+COG0219	1
+COG0218	1
+COG1032	1
+COG1034	1
+COG3672	3
+COG1038	1
+COG5009	1
+COG0528	1
+COG0039	1
+COG0038	1
+COG5001	5
+COG5000	1
+COG0523	8
+COG0030	1
+COG0525	1
+COG0036	2
+COG0035	1
+COG0034	1
+COG4239	1
+COG3547	2
+COG3545	3
+COG4231	1
+COG4230	1
+COG4233	1
+COG4235	1
+COG4237	1
+COG3785	1
+COG3786	1
+COG3789	1
+COG0147	2
+COG0146	1
+COG5317	1
+COG0144	2
+COG0143	2
+COG5310	1
+COG0141	1
+COG0140	1
+COG1496	1
+COG2938	1
+COG1327	1
+COG1492	1
+COG1322	1
+COG0148	1
+COG4307	1
+COG4303	1
+COG4302	1
+COG0357	1
+COG3439	1
+COG3436	2
+COG3437	2
+COG1141	1
+COG1143	1
+COG1146	1
+COG5265	1
+COG5267	1
+COG5268	1
+COG2963	5
+COG2962	7
+COG2961	1
+COG2960	1
+COG2967	1
+COG2968	1
+COG0612	3
+COG1749	2
+COG0847	2
+COG0845	12
+COG0842	3
+COG0843	3
+COG0840	25
+COG0841	11
+COG1744	5
+COG0848	1
+COG0849	1
+COG1210	1
+COG1212	1
+COG2145	1
+COG2144	1
+COG2146	2
+COG2141	17
+COG2140	1
+COG2142	1
+COG3946	1
+COG2148	7
+COG5490	1
+COG5497	1
+COG5499	1
+COG3892	1
+COG3893	1
+COG3896	1
+COG3897	2
+COG3898	1
+COG3899	2
+COG5343	1
+COG1952	1
+COG2208	1
+COG1957	4
+COG2200	1
+COG2201	2
+COG2206	1
+COG2207	27
+COG2204	5
+COG2205	1
+COG4297	1
+COG2802	1
+COG3306	1
+COG3307	3
+COG1695	1
+COG2376	5
+COG2377	1
+COG2375	1
+COG2373	1
+COG2370	2
+COG2371	1
+COG4782	5
+COG4784	1
+COG2378	3
+COG2379	3
+COG3237	2
+COG3230	1
+COG3231	1
+COG3238	2
+COG3239	3
+COG3158	3
+COG4651	2
+COG4650	1
+COG3153	4
+COG1072	1
+COG0448	1
+COG0449	2
+COG0338	1
+COG0339	1
+COG0442	1
+COG0443	2
+COG0336	1
+COG0441	1
+COG0330	3
+COG0331	1
+COG0444	19
+COG0333	1
+COG4530	1
+COG4531	1
+COG4536	1
+COG0200	1
+COG0201	1
+COG0202	1
+COG0203	1
+COG0204	3
+COG0205	1
+COG0206	2
+COG0207	1
+COG0208	1
+COG0209	2
+COG0536	1
+COG5017	1
+COG0534	4
+COG0535	1
+COG1009	2
+COG1008	1
+COG5010	2
+COG0531	2
+COG1005	1
+COG1004	1
+COG1007	1
+COG1006	1
+COG1001	3
+COG0541	1
+COG0538	1
+COG0539	1
+COG0028	6
+COG0029	1
+COG0540	1
+COG4222	3
+COG4223	1
+COG4221	13
+COG0020	1
+COG0021	2
+COG0022	2
+COG0024	2
+COG0025	2
+COG0026	1
+COG0546	4
+COG0012	1
+COG1012	26
+COG1010	1
+COG0548	1
+COG0019	2
+COG0154	7
+COG0155	2
+COG0156	4
+COG0157	1
+COG0150	1
+COG0151	1
+COG0152	2
+COG1312	2
+COG1314	1
+COG4312	4
+COG4313	1
+COG4311	2
+COG4315	1
+COG4319	1
+COG4251	1
+COG3449	2
+COG3448	1
+COG1794	1
+COG1797	1
+COG3447	1
+COG1793	3
+COG1175	49
+COG1174	4
+COG1177	15
+COG1176	14
+COG1171	4
+COG1173	31
+COG1172	36
+COG4254	1
+COG1178	2
+COG0396	1
+COG1770	1
+COG4391	1
+COG0392	2
+COG2971	2
+COG2979	1
+COG0833	1
+COG0832	1
+COG0831	1
+COG0830	1
+COG0837	2
+COG0836	1
+COG0835	5
+COG0834	25
+COG0839	1
+COG0838	1
+COG4559	1
+COG3608	3
+COG2153	2
+COG2151	1
+COG2156	1
+COG2154	1
+COG5664	1
+COG3931	2
+COG2159	3
+COG5661	1
+COG5662	5
+COG5468	1
+COG5467	1
+COG5466	1
+COG5465	1
+COG5463	1
+COG5462	1
+COG5461	1
+COG5460	1
+COG3847	2
+COG3334	1
+COG3845	5
+COG1944	3
+COG3842	16
+COG3333	2
+COG1947	1
+COG4826	1
+COG3339	1
+COG4821	1
+COG3221	2
+COG5457	5
+COG4799	3
+COG2303	10
+COG2301	2
+COG2307	1
+COG2304	1
+COG2309	1
+COG2308	2
+COG3200	1
+COG3206	5
+COG2187	2
+COG3146	1
+COG3145	1
+COG3142	1
+COG4644	1
+COG4645	1
+COG4641	1
+COG4649	1
+COG0308	1
+COG0300	9
+COG0303	1
+COG0302	2
+COG0305	1
+COG0304	6
+COG0307	1
+COG0306	2
+COG1064	5
+COG1063	7
+COG1062	3
+COG0239	1
+COG0238	1
+COG0235	2
+COG0234	4
+COG0237	1
+COG0236	5
+COG0231	1
+COG0233	1
+COG0232	1
+COG0015	2
+COG0542	2
+COG1018	3
+COG0016	1
+COG0547	1
+COG0010	5
+COG0013	1
+COG0544	1
+COG1544	1
+COG1546	1
+COG1011	7
+COG1540	3
+COG0018	2
+COG1015	1
+COG0785	2
+COG4252	3
+COG0787	2
+COG0781	1
+COG0780	1
+COG0783	1
+COG0782	2
+COG0789	9
+COG0788	2
+COG1304	4
+COG1305	5
+COG1301	2
+COG1309	44
+COG0161	5
+COG0160	2
+COG0163	1
+COG0162	2
+COG0165	1
+COG0164	1
+COG0167	2
+COG0166	1
+COG0169	6
+COG0784	4
+COG0491	13
+COG3511	1
+COG0493	2
+COG0492	2
+COG0495	2
+COG0494	3
+COG0497	1
+COG0496	1
+COG0499	2
+COG0498	1
+COG3458	1
+COG3459	3
+COG1788	2
+COG3450	3
+COG3451	2
+COG1780	1
+COG3453	3
+COG3454	2
+COG1785	1
+COG0126	1
+COG1160	1
+COG1167	8
+COG1164	1
+COG1764	5
+COG1765	1
+COG1766	1
+COG2898	1
+COG1760	1
+COG1762	2
+COG1763	1
+COG2893	1
+COG2890	1
+COG2897	1
+COG2896	1
+COG2895	1
+COG2894	1
+COG1786	1
+COG2948	2
+COG2945	1
+COG2944	1
+COG2947	1
+COG2942	1
+COG1162	1
+COG2096	1
+COG2095	2
+COG2094	1
+COG2099	1
+COG3970	1
+COG0820	1
+COG0821	1
+COG0822	1
+COG0823	1
+COG0824	3
+COG0825	1
+COG0828	3
+COG0829	1
+COG5516	1
+COG5515	1
+COG4107	1
+COG4106	1
+COG4105	1
+COG4103	1
+COG4102	1
+COG4101	2
+COG4108	1
+COG3920	10
+COG3921	2
+COG5478	3
+COG5476	2
+COG5477	1
+COG5470	3
+COG2899	1
+COG5473	2
+COG5620	1
+COG2115	1
+COG4246	1
+COG3326	1
+COG3852	1
+COG1975	2
+COG1974	1
+COG3328	2
+COG1970	1
+COG5569	1
+COG5446	2
+COG0014	1
+COG0456	11
+COG0323	1
+COG0322	1
+COG2313	2
+COG2318	2
+cog_id	1
+COG0452	1
+COG4177	9
+COG3218	1
+COG3216	1
+COG3217	1
+COG3214	1
+COG4227	2
+COG3135	1
+COG4671	2
+COG4670	3
+COG4674	1
+COG1995	2
+COG0286	1
+COG0287	1
+COG1533	1
+COG1999	1
+COG5319	1
+COG3685	1
+COG3683	1
+COG3049	1
+COG3045	1
+COG3040	1
+COG0228	1
+COG0229	2
+COG0222	1
+COG0223	2
+COG0220	1
+COG0221	1
+COG0226	2
+COG0227	1
+COG0224	1
+COG0225	2
+COG0550	1
+COG0003	1
+COG0552	1
+COG0001	1
+COG0006	6
+COG0007	2
+COG0556	1
+COG0005	1
+COG0558	2
+COG1570	1
+COG1573	4
+COG0009	1
+COG1576	1
+COG0792	1
+COG0793	2
+COG0790	2
+COG0796	1
+COG0797	1
+COG0794	1
+COG0795	2
+COG4249	1
+COG0799	1
+COG0316	2
+COG0317	1
+COG0314	1
+COG0315	1
+COG0312	2
+COG0313	1
+COG0318	6
+COG0319	1
+COG1377	1
+COG1376	9
+COG0178	1
+COG0179	3
+COG0176	1
+COG0177	1
+COG0174	6
+COG0175	2
+COG0172	2
+COG0173	1
+COG0171	3
+COG3467	2
+COG0488	6
+COG0489	2
+COG0486	1
+COG0484	1
+COG0482	1
+COG0483	8
+COG0480	2
+COG0481	1
+COG3665	2
+COG1905	2
+COG3668	6
+COG0133	1
+COG1197	1
+COG1196	1
+COG1195	1
+COG1194	1
+COG1192	11
+COG1190	1
+COG1752	4
+COG1755	1
+COG1209	3
+COG1208	1
+COG1207	1
+COG1758	1
+COG2884	1
+COG2885	6
+COG1201	1
+COG1200	1
+COG1683	1
+COG1682	2
+COG1680	4
+COG1686	4
+COG1684	1
+COG2951	4
+COG1403	1
+COG2954	2
+COG2080	2
+COG2081	2
+COG2082	1
+COG1402	2
+COG2084	7
+COG2085	1
+COG2086	5
+COG2087	1
+COG2089	1
+COG0819	2
+COG0818	1
+COG0815	2
+COG0817	1
+COG0816	1
+COG0811	1
+COG0810	1
+COG0812	1
+COG5507	1
+COG5500	1
+COG5509	1
+COG4114	1
+COG4117	1
+COG4111	1
+COG4118	2
+COG4119	1
+COG3915	1
+COG3917	1
+COG3916	2
+COG3911	1
+COG3918	1
+COG0033	1
+COG0520	1
+COG0031	2
+COG0522	1
+COG5441	2
+COG0037	1
+COG5443	1
+COG5442	1
+COG5447	1
+COG0524	13
+COG0527	1
+COG5006	6
+COG3542	1
+COG1968	1
+COG3865	3
+COG1960	14
+COG1961	5
+COG3118	1
+COG2329	4
+COG2326	3
+COG2321	1
+COG2320	2
+COG3263	1
+COG3261	1
+COG3260	1
+COG3265	2
+COG3264	1
+COG2710	4
+COG3125	1
+COG3127	1
+COG2718	1
+COG4664	2
+COG4665	2
+COG4663	2
+COG3626	1
+COG1984	3
+COG1987	1
+COG1981	1
+COG3698	1
+COG3693	1
+COG3694	1
+COG1089	2
+COG0568	3
+COG0565	1
+COG0564	2
+COG0567	1
+COG0566	3
+COG0561	1
+COG0560	1
+COG0563	5
+COG3586	1
+COG1466	1
+COG0769	1
+COG0768	1
+COG0767	1
+COG4274	2
+COG0765	25
+COG0764	3
+COG0763	1
+COG0762	1
+COG3588	1
+COG0760	3
+COG5314	1
+COG0363	1
+COG0362	1
+COG0361	1
+COG0360	1
+COG0366	3
+COG0365	5
+COG0364	3
+COG0368	1
+COG1329	1
+COG1360	2
+COG1364	1
+COG1366	1
+COG0629	1
+COG0109	1
+COG0108	2
+COG0103	1
+COG0102	1
+COG0101	1
+COG0100	1
+COG0107	1
+COG0106	1
+COG0105	1
+COG0104	1
+COG3473	2
+COG1495	1
+COG3476	2
+COG3474	3
+COG1320	1
+COG0623	2
+COG1566	10
+COG1564	1
+COG1565	1
+COG1562	1
+COG0149	2
+COG1560	1
+COG1561	1
+COG4583	2
+COG4587	1
+COG4586	1
+COG4585	2
+COG4584	1
+COG0647	1
+COG1188	1
+COG1189	1
+COG1185	1
+COG1186	1
+COG1187	2
+COG1181	2
+COG1182	2
+COG1183	2
+COG0617	1
+COG0616	2
+COG0614	5
+COG1218	2
+COG1219	1
+COG1748	1
+COG0610	1
+COG1214	1
+COG1215	4
+COG1216	7
+COG1217	1
+COG1742	1
+COG1211	1
+COG0619	1
+COG1741	3
+COG0587	3
+COG0586	1
+COG0584	6
+COG0583	107
+COG0582	2
+COG0581	2
+COG0580	2
+COG0589	7
+COG0588	1
+COG1690	1
+COG1691	1
+COG1692	1
+COG1694	1
+COG4292	1
+COG4291	1
+COG0554	3
+COG4298	1
+COG2981	1
+COG2983	1
+COG2982	1
+COG2984	2
+COG2987	2
+COG2986	5
+COG2989	2
+COG0803	2
+COG0800	3
+COG0801	1
+COG0806	1
+COG0804	1
+COG0805	1
+COG5530	1
+COG4121	1
+COG4120	1
+COG4123	1
+COG4122	1
+COG4124	2
+COG4126	3
+COG3903	4
+COG3900	2
+COG3904	2
+COG3905	1
+COG3908	1
+COG3909	2
+COG2188	7
+COG5454	1
+COG5455	1
+COG5452	1
+COG5453	1
+COG5451	1
+COG2183	1
+COG2182	1
+COG5458	1
+COG2186	20
+COG4872	1
+COG3324	4
+COG3875	1
+COG1977	1
+COG3871	3
+COG2057	2
+COG2055	3
+COG2050	1
+COG2059	1
+COG2135	4
+COG2332	2
+COG2334	3
+COG2335	1
+COG3278	3
+COG3279	1
+COG3119	11
+COG2423	6
+COG2421	2
+COG4618	3
+COG2513	3
+COG2510	3
+COG2516	1
+COG2514	2
+COG2515	1
+COG2518	4
+COG0578	4
+COG0579	1
+COG0573	2
+COG0571	1
+COG0576	1
+COG0577	2
+COG0574	2
+COG0575	1
+COG4269	1
+COG0778	6
+COG0779	1
+COG0774	1
+COG0775	2
+COG0776	4
+COG0777	1
+COG0770	1
+COG0771	1
+COG0772	1
+COG0773	1
+COG0371	1
+COG0372	3
+COG2608	1
+COG0377	1
+COG2606	2
+COG0379	1
+COG2605	1
+COG1359	4
+COG1354	1
+COG1357	1
+COG1352	2
+COG0118	1
+COG0119	2
+COG0110	6
+COG0111	7
+COG0112	1
+COG0113	1
+COG0114	1
+COG0115	4
+COG0117	1
+COG3489	1
+COG3488	1
+COG3487	1
+COG3486	1
+COG3485	6
+COG3483	1
+COG3482	3
+COG4598	2
+COG1510	1
+COG1514	2
+COG4591	3
+COG1519	1
+COG4597	1
+COG0604	15
+COG1228	1
+COG0606	1
+COG0607	1
+COG0600	11
+COG0601	30
+COG0602	1
+COG2319	1
+COG1733	11
+COG1732	2
+COG1737	6
+COG0609	6
+COG1735	2
+COG1734	3
+COG0594	1
+COG0595	1
+COG0596	38
+COG0597	1
+COG0590	3
+COG0591	2
+COG0592	1
+COG0593	1
+COG0598	3
+COG0599	3
+COG4286	1
+COG4289	2
+COG3838	2
+COG0376	1
+COG0378	1
+COG1643	1
+COG1641	1
+COG2607	1
+COG2993	2
+COG5528	1
+COG4132	1
+COG4133	1
+COG4130	1
+COG2197	7
+COG2195	1
+COG2193	1
+COG2199	10
+COG5420	1
+COG5426	1
+COG5425	2
+COG5429	1
+COG0698	2
+COG3808	1
+COG0691	1
+COG3803	1
+COG3802	1
+COG3801	1
+COG1420	1
+COG3807	1
+COG3806	2
+COG2044	1
+COG2040	2
+COG2041	3
+COG0050	1
+COG2049	3
+COG4907	1
+COG0057	1
+COG0056	1
+COG0507	2
+COG3247	1
+COG3246	3
+COG3243	1
+COG4912	1
+COG3108	3
+COG3106	1
+COG0608	1
+COG4608	5
+COG4603	5
+COG3391	1
+COG3077	1
+COG3070	1
+COG0183	5
+COG4736	2
+COG4731	3
+COG0749	1
+COG0748	1
+COG0299	1
+COG0741	1
+COG0292	1
+COG0291	1
+COG0290	1
+COG0745	24
+COG0744	3
+COG0295	1
+COG0746	1
+COG1451	1
+COG4454	2
+COG4456	1
+COG5653	1
+COG0349	1
+COG0348	1
+COG0345	2
+COG0344	2
+COG0347	2
+COG0346	21
+COG0340	1
+COG0343	1
+COG0342	2
+COG0125	1
+COG0124	1
+COG0127	1
+COG1349	11
+COG0121	1
+COG0120	1
+COG0123	2
+COG1633	1
+COG1434	2
+COG1435	1
+COG1430	1
+COG0128	2
+COG1344	9
+COG3494	1
+COG3495	1
+COG3496	1
+COG3490	1
+COG3491	1
+COG3492	1
+COG1502	4
+COG1505	1
+COG1508	1
+COG1509	1
+COG3654	1
+COG3655	1
+COG3652	2
+COG1236	2
+COG1235	2
+COG1230	1
+COG1231	2
+COG2857	1
+COG2855	1
+COG2852	2
+COG1238	2
+COG0631	1
+COG1729	1
+COG0633	2
+COG0632	1
+COG0635	2
+COG0634	1
+COG0637	6
+COG0636	1
+COG4638	3
+COG1721	1
+COG1722	1
+COG0605	1
+COG1738	1
+COG0603	1
+COG1651	2
+COG1653	51
+COG1225	1
+COG0257	1
+COG4149	1
+COG4148	1
+COG0704	1
+COG0707	1
+COG0254	1
+COG5430	1
+COG5434	1
+COG0703	1
+COG5436	1
+COG5439	1
+COG0250	1
+COG0715	10
+COG4852	2
+COG3811	1
+COG3812	1
+COG3813	1
+COG3814	1
+COG3816	1
+COG2071	4
+COG2070	2
+COG2072	3
+COG2076	2
+COG2079	1
+COG4329	1
+COG4929	1
+COG4928	1
+COG3250	4
+COG3251	1
+COG3257	1
+COG3254	1
+COG1884	1
+COG1886	1
+COG4925	1
+COG1951	1
+COG2440	1
+COG4637	1
+COG4631	1
+COG4630	1
+COG1959	6
+COG3000	1
+COG4702	1
+COG1866	1
+COG1863	1
+COG1862	1
+COG1861	1
+COG1868	1
+COG0756	1
+COG0757	2
+COG0754	1
+COG0755	1
+COG0752	1
+COG0753	2
+COG0750	1
+COG0751	1
+COG1640	1
+COG0758	2
+COG0759	1
+COG0288	1
+COG0289	2
+COG0281	2
+COG0282	2
+COG0283	1
+COG0284	1
+COG0285	2
+COG4448	1
+COG0555	1
+COG0004	1
+COG3719	1
+COG3718	1
+COG3717	1
+COG0557	1
+COG3713	1
+COG0358	1
+COG0359	1
+COG0293	1
+COG0559	10
+COG0352	2
+COG0353	1
+COG0350	2
+COG0351	1
+COG0356	1
+COG0008	1
+COG0354	1
+COG0355	1
+COG1409	2
+COG1408	1
+COG0130	1
+COG0131	1
+COG0136	1
+COG0137	2
+COG0134	1
+COG0135	1
+COG0138	1
+COG0139	1
+COG1407	1
+COG3629	1
+COG2717	1
+COG1539	1
+COG1538	4
+COG3622	3
+COG1536	1
+COG3627	1
+COG1530	1
+COG3625	1
+COG3624	1
+COG1714	1
+COG1247	7
+COG1246	1
+COG2844	1
+COG2845	1
+COG1249	6
+COG2840	1
+COG1087	4
+COG1086	1
+COG1080	1
+COG0628	4
+COG1082	19
+COG0626	5
+COG0627	1
+COG0624	7
+COG0625	29
+COG0622	1
+COG1088	2
+COG0621	2
+COG1580	1
+COG3536	1
+COG3535	3
+COG3534	1
+COG3533	2
+COG3531	1
+COG0043	1
+COG1663	1
+COG1391	1
+COG1393	2
+COG1392	1
+COG1396	8
+COG1399	1
+COG4154	3
+COG5405	1
+COG1385	1
+COG5400	1
+COG5403	1
+COG5402	1
+COG4786	2
+COG3393	1
+COG3824	1
+COG3827	1
+COG3821	2
+COG3820	1
+COG3395	3
+COG3822	1
+COG3828	3
+COG2740	1
+COG2068	1
+COG2066	1
+COG2067	1
+COG2064	1
+COG2062	1
+COG2063	1
+COG2060	1
+COG2746	1
+COG5126	1
+COG0677	1
+COG1898	2
+COG1893	1
+COG1896	1
+COG1897	1
+COG1894	2
+COG5285	4
+COG4625	1
+COG2274	2
+COG2272	2
+COG2271	8
+COG2270	1
+COG1079	5
+### COG RNASeq Histogram ###
+COG0757	2
+COG3916	2
+COG0459	2
+COG0835	1
+COG0684	2
+COG0686	1
+COG1028	7
+COG0129	2
+COG0450	2
+COG1228	1
+COG1132	3
+COG1135	2
+COG0601	4
+COG3852	2
+COG1733	2
+COG4521	1
+COG2217	3
+COG0596	3
+COG0591	1
+COG2132	1
+COG5330	1
+COG0599	1
+COG0600	1
+COG4122	1
+COG0215	2
+COG4321	1
+COG4289	2
+COG0687	1
+COG3672	1
+COG0444	2
+COG0039	1
+COG5455	1
+COG0637	1
+COG1129	2
+COG1126	2
+COG1960	1
+COG0715	1
+COG1123	2
+COG2259	2
+COG5618	1
+COG3707	2
+COG3293	1
+COG3247	1
+COG1846	4
+COG2391	2
+COG2197	1
+COG0183	1
+COG3324	1
+COG0531	1
+COG0300	1
+COG0028	3
+COG0411	1
+COG3038	2
+COG0385	1
+COG3971	1
+COG1653	8
+COG2084	1
+COG0022	1
+COG0625	4
+COG0431	2
+COG1921	2
+COG0861	1
+COG3439	1
+COG1522	2
+COG1853	1
+COG3637	1
+COG0542	2
+COG1252	1
+COG1012	2
+COG3964	2
+COG0155	2
+COG2230	1
+COG0780	1
+COG2823	1
+COG1312	2
+COG0789	2
+COG3607	1
+COG4558	1
+COG3049	1
+COG1396	2
+COG1902	3
+COG1820	2
+COG4154	2
+COG1175	5
+COG0554	1
+COG0004	2
+COG1172	2
+COG0559	1
+COG4269	1
+COG0241	1
+COG1309	5
+COG0160	1
+COG2222	2
+COG0845	1
+COG3119	1
+COG2225	1
+COG0840	3
+COG0841	1
+COG0640	5
+COG0410	1
+COG0642	3
+COG0643	1
+COG1063	2
+COG1670	1
+COG0491	1
+COG0493	1
+COG0395	3
+COG3616	1
+COG0499	1
+COG1108	1
+COG1932	1
+COG0167	1
+COG1877	1
+COG0747	4
+COG1464	1
+COG0174	1
+COG0406	1
+COG1173	2
+COG3839	2
+COG1376	1
+COG0673	4
+COG0277	3
+COG2899	1
+COG2898	2
+COG5564	1
+COG0834	4
+COG3946	1
+COG3749	2
+COG0765	2
+COG0175	4
+COG1070	2
+COG1071	1
+COG2895	2
+COG0171	1
+COG3181	1
+COG3186	1
+COG4177	1
+COG0146	1
+COG1879	6
+COG0089	2
+COG1475	4
+COG3832	2
+COG3837	1
+COG0664	3
+COG1082	2
+COG1192	4
+COG1116	1
+COG0108	1
+COG2207	2
+COG2204	2
+COG0670	1
+COG2764	1
+COG4189	1
+COG1280	1
+COG2011	2
+COG1566	2
+COG4102	2
+COG2608	2
+COG2814	4
+COG0379	1
+COG3576	2
+COG2081	2
+COG1052	2
+COG1051	1
+COG4948	2
+COG0693	1
+COG1940	2
+COG0053	1
+COG0054	1
+COG3333	1
+COG1216	1
+COG0745	2
+COG0115	2
+COG3764	2
+COG0583	2
+COG5349	1
+COG3485	1
+COG5477	1
+COG1278	2
+COG2271	2
+COG4598	2
+COG0265	3
+COG0262	2
+COG0347	2
+COG0346	2
+COG3564	1
+COG1454	2
