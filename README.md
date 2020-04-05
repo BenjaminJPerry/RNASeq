@@ -10,7 +10,7 @@ Strand specific paired-end RNASeq data from dUTP librariy preparation method
 
 Reference genome in .fasta format.
 Genome annotation in .gtf format, with features of interest flagged as 'exon'.
-Experiment file in .csv format indicating: SampleID, condition, path/R1.fastq.gz, path/R2.fastq.gz.
+Experiment file in .csv format indicating: SampleID, condition, path/R1.fastq.gz, path/R2.fastq.gz.  
 ## Overview
 ### Read Alignment and Feature Counts
     1. Rsubread builds index
