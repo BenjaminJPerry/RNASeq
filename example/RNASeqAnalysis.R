@@ -1,11 +1,9 @@
-#setwd(dir = "data/2020R7AStarRNASeq/Rsubread-PE-Stranded/")
+list.files()
 list.files()
 # install.packages("tidyverse")
-# source("https://bioconductor.org/biocLite.R")
-# biocLite()
-# biocLite("Rsubread", "DESeq2")
-# install.packages("Rsubread")
-# install.packages("DESeq2")
+# install.packages("BiocManager")
+# BiocManager::install(pkgs = c("Rsubread", "DESeq2"))
+
 library(tidyverse)
 library(Rsubread)
 library(DESeq2)
@@ -16,7 +14,7 @@ makeCounts <- function(refIndex,read1,read2,bamOut,RefGTF,antisense = F) {
     } else {
       strandedness = 2 # NEB dUTP Strandedness
     }
-
+    
     align.stat <- subjunc(
       index = refIndex,
       readfile1 = read1,
@@ -25,10 +23,11 @@ makeCounts <- function(refIndex,read1,read2,bamOut,RefGTF,antisense = F) {
       input_format = "gzFASTQ",
       output_format = "BAM",
       nBestLocations = 1,
+      maxFragLength = 800,
       nthreads = 12,
       sortReadsByCoordinates = T
     )
-
+    
     counts.stat <- featureCounts(
       files = bamOut,
       annot.ext = RefGTF,
@@ -42,12 +41,13 @@ makeCounts <- function(refIndex,read1,read2,bamOut,RefGTF,antisense = F) {
       allowMultiOverlap = T,
       nthreads = 12
     )
-
+    
     return(counts.stat)
   }
 
 # For R7AStar 2020 RNASeq Analysis The Followig dir structure was used:
 # ./
+# ├── loci.rsubread.txt
 # ├── R7A-392-A_S1_L001_R1_001.fastq.gz
 # ├── R7A-392-A_S1_L001_R2_001.fastq.gz
 # ├── R7A-392-B_S2_L001_R1_001.fastq.gz
@@ -56,11 +56,12 @@ makeCounts <- function(refIndex,read1,read2,bamOut,RefGTF,antisense = F) {
 # ├── R7A-Star-4510-A_S3_L001_R2_001.fastq.gz
 # ├── R7A-Star-4510-B_S4_L001_R1_001.fastq.gz
 # ├── R7A-Star-4510-B_S4_L001_R2_001.fastq.gz
-# ├── R7AStar.experiment.csv
+# ├── R7AStar.experiment.metadata.csv
+# ├── README.txt
 # ├── ref
 # │   ├── R7A2020.fna
 # │   ├── R7A2020.fseA.gtf
-# │   └── R7A2020.KO.Detailed.txt
+# │   ├── R7A2020.KO.Detailed.txt
 # └── RNASeqAnalysis.R
 
 # Build Reference for subjunc alignment
@@ -126,10 +127,11 @@ ddsR7AFilter <- DESeq(ddsR7AFilter)
 # Compute DE expression results object
 resR7AFilter <- results(
   ddsR7AFilter,
-  alpha = 0.1,
   contrast = c("condition", "R7AStar", "R7A"),
+  cooksCutoff = F,
+  test = "Wald",
   independentFiltering = F,
-  cooksCutoff = F
+  pAdjustMethod = 'BH'
 )
 
 ### Prepare Files to Export
@@ -138,7 +140,12 @@ resOut$ID <- row.names(resOut)
 resOut <- resOut %>% select(ID, baseMean, log2FoldChange, lfcSE, stat, pvalue, padj)
 normCounts <- as.data.frame(counts(ddsR7AFilter, normalized=T))
 normCounts$ID <- row.names(normCounts)
-normCounts <- normCounts %>% select(ID, normalize.counts.R7A392A = R7A392A, normalize.counts.R7A392B = R7A392B, normalize.counts.R7A4510A = R7A4510A, normalize.counts.R7A4510B = R7A4510B)
+normCounts <- normCounts %>% select(ID,
+                                    normalize.counts.R7A392A = R7A392A,
+                                    normalize.counts.R7A392B = R7A392B,
+                                    normalize.counts.R7A4510A = R7A4510A,
+                                    normalize.counts.R7A4510B = R7A4510B)
+
 DEout <- left_join(x = countData, y = normCounts, by = "ID")
 DEout <- left_join(x = DEout, y = resOut, by = "ID")
 
@@ -161,11 +168,11 @@ DEKO$CC <- replace(x = DEKO$CC, DEKO$log2FoldChange < 0, "#0000ff")
 DEKO$CC <- replace(x = DEKO$CC, DEKO$padj > 0.05, "#00cc00")
 
 # Print out master table
-write_delim(DEKO, path = "R7A.DE.results.rsubread.IndFiltF.cooksF.alpha-0.1.lfcT-0.txt", col_names = T, delim = "\t")
+write_delim(DEKO, path = "R7A.DE.results.rsubread.lfcT-0.CooksF.IndFiltF.txt", col_names = T, delim = "\t")
 
 # Filter genes with no KO codes and print KEGG Mapper Input File
 KEGGMAP <- DEKO %>% filter(!is.na(KO)) %>% select(KO, CC)
-write_delim(KEGGMAP, path = "R7A.DE.results.rsubread.IndFiltF.cooksF.alpha-0.1.lfcT-0.KEGGMAP.txt", col_names = F, delim = "\t")
+write_delim(KEGGMAP, path = "R7A.DE.results.rsubread.lfcT-0.CooksF.IndFiltF.KEGGMAP.txt", col_names = F, delim = "\t")
 
 
 ### Compute DESeq2 Analysis for Antisense Transcription ###
@@ -221,10 +228,11 @@ ddsR7AFilter <- DESeq(ddsR7AFilter)
 # Compute DE expression results object
 resR7AFilter <- results(
   ddsR7AFilter,
-  alpha = 0.1,
   contrast = c("condition", "R7AStar", "R7A"),
+  cooksCutoff = F,
+  test = "Wald",
   independentFiltering = F,
-  cooksCutoff = F
+  pAdjustMethod = 'BH'
 )
 
 ### Prepare Files to Export
@@ -233,7 +241,10 @@ resOut$ID <- row.names(resOut)
 resOut <- resOut %>% select(ID, baseMean, log2FoldChange, lfcSE, stat, pvalue, padj)
 normCounts <- as.data.frame(counts(ddsR7AFilter, normalized=T))
 normCounts$ID <- row.names(normCounts)
-normCounts <- normCounts %>% select(ID, normalize.counts.R7A392A = R7A392A, normalize.counts.R7A392B = R7A392B, normalize.counts.R7A4510A = R7A4510A, normalize.counts.R7A4510B = R7A4510B)
+normCounts <- normCounts %>% select(ID, normalize.counts.R7A392A = R7A392A,
+                                    normalize.counts.R7A392B = R7A392B,
+                                    normalize.counts.R7A4510A = R7A4510A,
+                                    normalize.counts.R7A4510B = R7A4510B)
 DEout <- left_join(x = countData, y = normCounts, by = "ID")
 DEout <- left_join(x = DEout, y = resOut, by = "ID")
 
@@ -256,15 +267,15 @@ DEKO$CC <- replace(x = DEKO$CC, DEKO$log2FoldChange < 0, "#0000ff")
 DEKO$CC <- replace(x = DEKO$CC, DEKO$padj > 0.05, "#00cc00")
 
 # Print out master table
-write_delim(DEKO, path = "R7A.DE.results.rsubread.antisense.IndFiltF.cooksF.alpha-0.1.lfcT-0.txt", col_names = T, delim = "\t")
+write_delim(DEKO, path = "R7A.DE.results.rsubread.antisense.lfcT-0.CooksF.IndFiltF.txt", col_names = T, delim = "\t")
 
 # Filter genes with no KO codes and print KEGG Mapper Input File
 KEGGMAP <- DEKO %>% filter(!is.na(KO)) %>% select(KO, CC)
-write_delim(KEGGMAP, path = "R7A.DE.results.rsubread.antisense.IndFiltF.cooksF.alpha-0.1.lfcT-0.KEGGMAP.txt", col_names = F, delim = "\t")
+write_delim(KEGGMAP, path = "R7A.DE.results.rsubread.antisense.lfcT-0.CooksF.IndFiltF.KEGGMAP.txt", col_names = F, delim = "\t")
 
 
 ### filter outputs for making summary table ###
 
-system("grep -f loci.rsubread.txt R7A.DE.results.rsubread.IndFiltF.cooksF.alpha-0.1.lfcT-0.txt > R7AStar.DE.rsubread.out.summary.txt")
-system("grep -f loci.rsubread.txt R7A.DE.results.rsubread.antisense.IndFiltF.cooksF.alpha-0.1.lfcT-0.txt > R7AStar.DE.rsubread.antisense.out.summary.txt")
+system("grep -f loci.rsubread.txt R7A.DE.results.rsubread.lfcT-0.CooksF.IndFiltF.txt > R7AStar.DE.rsubread.out.summary.txt")
+system("grep -f loci.rsubread.txt R7A.DE.results.rsubread.antisense.lfcT-0.CooksF.IndFiltF.txt > R7AStar.DE.rsubread.antisense.out.summary.txt")
 system("rm *antisense.sort.bam*")
