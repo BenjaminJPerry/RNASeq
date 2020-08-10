@@ -39,12 +39,14 @@ makeCounts <- function(RefIndex,read1,read2,bamOut,RefGTF,antisense = F) {
     return(counts.stat)
   }
 
+
+
 ### Make the feature counts table for the RNASeq data ###
 # Build reference for alignment
 GenomeIndex <- "ref/reference.fasta" #Path to reference genome
-buildindex(basename = "ref/reference",
-           reference = "ref/reference.fna")
-GenomeGTF <- "ref/reference.RSEM.gtf" #path to reference genome annotation in GTF formaat
+buildindex(basename = "ref/Reference",
+           reference = "ref/Reference.fna")
+GenomeGTF <- "ref/Reference.RSEM.gtf" #Rath to reference genome annotation in GTF format
 
 # Process the experimental metadata file
 RNASEQ <- read_csv(
@@ -122,7 +124,7 @@ resOut <- resOut %>% select(ID, baseMean, log2FoldChange, lfcSE, stat, pvalue, p
 normCounts <- as.data.frame(counts(ddsObjFilter, normalized=T))
 normCounts$ID <- row.names(normCounts)
 
-### Update column names in table to your samples ###
+### Update column names in table for your samples ###
 normCounts <- normCounts %>% select(ID,
                                     normalize.counts.SAMPLE1 = sample1,
                                     normalize.counts.SAMPLE2 = sample2,

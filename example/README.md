@@ -21,7 +21,7 @@
  ├── README.txt  
  ├── ref/  
  │    ├── Reference.fna  
- │    ├── Reference.gtf  
+ │    ├── Reference.RSEM.gtf  
  │    ├── KO.Detailed.txt  
  └── RNASeqAnalysis.R  
 ```
