@@ -7,22 +7,22 @@
 
 ## Example Analysis directory
 # For RNASeq analysis the following dir structure is used:
- [analysis]/
- ├── sample1-A_S1_L001_R1_001.fastq.gz
- ├── sample1-A_S1_L001_R2_001.fastq.gz
- ├── sample1-B_S2_L001_R1_001.fastq.gz
- ├── sample1-B_S2_L001_R2_001.fastq.gz
- ├── sample2-A_S3_L001_R1_001.fastq.gz
- ├── sample2-A_S3_L001_R2_001.fastq.gz
- ├── sample2-B_S4_L001_R1_001.fastq.gz
- ├── sample2-B_S4_L001_R2_001.fastq.gz
- ├── experiment.metadata.csv
- ├── README.txt
- ├── ref/
- │   ├── Reference.fna
- │   ├── Reference.gtf
- │   ├── KO.Detailed.txt
- └── RNASeqAnalysis.R
+ [analysis]/  
+ ├── sample1-A_S1_L001_R1_001.fastq.gz  
+ ├── sample1-A_S1_L001_R2_001.fastq.gz  
+ ├── sample1-B_S2_L001_R1_001.fastq.gz  
+ ├── sample1-B_S2_L001_R2_001.fastq.gz  
+ ├── sample2-A_S3_L001_R1_001.fastq.gz  
+ ├── sample2-A_S3_L001_R2_001.fastq.gz  
+ ├── sample2-B_S4_L001_R1_001.fastq.gz  
+ ├── sample2-B_S4_L001_R2_001.fastq.gz  
+ ├── experiment.metadata.csv  
+ ├── README.txt  
+ ├── ref/  
+ │   ├── Reference.fna  
+ │   ├── Reference.gtf  
+ │   ├── KO.Detailed.txt  
+ └── RNASeqAnalysis.R  
 
 ## Output Files:
 
