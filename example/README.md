@@ -19,9 +19,9 @@
  ├── experiment.metadata.csv  
  ├── README.txt  
  ├── ref/  
- │   ├── Reference.fna  
- │   ├── Reference.gtf  
- │   ├── KO.Detailed.txt  
+ │    ├── Reference.fna  
+ │    ├── Reference.gtf  
+ │    ├── KO.Detailed.txt  
  └── RNASeqAnalysis.R  
 
 ## Output Files:
