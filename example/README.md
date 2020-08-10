@@ -7,6 +7,7 @@
 
 ## Example Analysis directory
 # For RNASeq analysis the following dir structure is used:
+```bash
  [analysis]/  
  ├── sample1-A_S1_L001_R1_001.fastq.gz  
  ├── sample1-A_S1_L001_R2_001.fastq.gz  
@@ -23,6 +24,7 @@
  │    ├── Reference.gtf  
  │    ├── KO.Detailed.txt  
  └── RNASeqAnalysis.R  
+```
 
 ## Output Files:
 
