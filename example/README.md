@@ -6,7 +6,7 @@
 4. Run command: "Rscript --verbose RNASeqAnalysis.R | tee RNASeqAnalysis.R.log".
 
 ## Example Analysis directory
-# For RNASeq analysis the following dir structure is used:
+### For RNASeq analysis the following dir structure is used:
 ```bash
  [analysis]/  
  ├── sample1-A_S1_L001_R1_001.fastq.gz  
