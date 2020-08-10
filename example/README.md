@@ -2,8 +2,10 @@
 
 1. Install tidyverse, DESeq2, and Rsubread R packages.
 2. Move reads files into /[analysis] directory (./); make sure reads files match those listed in experiment.metadata.csv and have unique sample names.
-3. Open terminal and navigate to /[analysis] directory.
-4. Run command: "Rscript --verbose RNASeqAnalysis.R | tee RNASeqAnalysis.R.log".
+3. Update the experiments.metadata.csv file.
+4. Updated the RNASeqAnalysis.R file with your reference file paths, DESeq2 options, and samples names for output.
+5. Open terminal and navigate to /[analysis] directory.
+6. Run command: "Rscript --verbose RNASeqAnalysis.R | tee RNASeqAnalysis.R.log".
 
 ## Example Analysis directory
 ### For RNASeq analysis the following dir structure is used:
