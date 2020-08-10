@@ -1,22 +1,16 @@
 list.files()
-list.files()
-# install.packages("tidyverse")
-# install.packages("BiocManager")
-# BiocManager::install(pkgs = c("Rsubread", "DESeq2"))
-
 library(tidyverse)
 library(Rsubread)
-library(DESeq2)
 
-makeCounts <- function(refIndex,read1,read2,bamOut,RefGTF,antisense = F) {
+makeCounts <- function(RefIndex,read1,read2,bamOut,RefGTF,antisense = F) {
     if (antisense == T) {
       strandedness = 1
     } else {
       strandedness = 2 # NEB dUTP Strandedness
     }
-    
+
     align.stat <- subjunc(
-      index = refIndex,
+      index = RefIndex,
       readfile1 = read1,
       readfile2 = read2,
       output_file = bamOut,
@@ -27,7 +21,7 @@ makeCounts <- function(refIndex,read1,read2,bamOut,RefGTF,antisense = F) {
       nthreads = 12,
       sortReadsByCoordinates = T
     )
-    
+
     counts.stat <- featureCounts(
       files = bamOut,
       annot.ext = RefGTF,
@@ -41,52 +35,34 @@ makeCounts <- function(refIndex,read1,read2,bamOut,RefGTF,antisense = F) {
       allowMultiOverlap = T,
       nthreads = 12
     )
-    
+
     return(counts.stat)
   }
 
-# For R7AStar 2020 RNASeq Analysis The Followig dir structure was used:
-# ./
-# ├── loci.rsubread.txt
-# ├── R7A-392-A_S1_L001_R1_001.fastq.gz
-# ├── R7A-392-A_S1_L001_R2_001.fastq.gz
-# ├── R7A-392-B_S2_L001_R1_001.fastq.gz
-# ├── R7A-392-B_S2_L001_R2_001.fastq.gz
-# ├── R7A-Star-4510-A_S3_L001_R1_001.fastq.gz
-# ├── R7A-Star-4510-A_S3_L001_R2_001.fastq.gz
-# ├── R7A-Star-4510-B_S4_L001_R1_001.fastq.gz
-# ├── R7A-Star-4510-B_S4_L001_R2_001.fastq.gz
-# ├── R7AStar.experiment.metadata.csv
-# ├── README.txt
-# ├── ref
-# │   ├── R7A2020.fna
-# │   ├── R7A2020.fseA.gtf
-# │   ├── R7A2020.KO.Detailed.txt
-# └── RNASeqAnalysis.R
+### Make the feature counts table for the RNASeq data ###
+# Build reference for alignment
+GenomeIndex <- "ref/reference.fasta" #Path to reference genome
+buildindex(basename = "ref/reference",
+           reference = "ref/reference.fna")
+GenomeGTF <- "ref/reference.RSEM.gtf" #path to reference genome annotation in GTF formaat
 
-# Build Reference for subjunc alignment
-R7A2020Index <- "ref/R7A2020"
-buildindex(basename = "ref/R7A2020",
-           reference = "ref/R7A2020.fna")
-R7AGTF <- "ref/R7A2020.fseA.gtf"
-
-# Prepare the Experimental Metadata File
+# Process the experimental metadata file
 RNASEQ <- read_csv(
-  file = "R7AStar.experiment.metadata.csv",
+  file = "experiment.metadata.csv",
   col_names = T,
   col_types = "cfcc",
   trim_ws = T
 )
-# Out put file paths based on the samples in the metadata file
+# Create file paths based on the samples in the metadata file for the output bam files
 RNASEQ$BAM <- paste(RNASEQ$sample, "subjunc", "sort", "bam", sep = ".")
 
 # Compute feature counts object for  samples
 countsObj <- makeCounts(
-  refIndex = R7A2020Index,
+  refIndex = GenomeIndex,
   read1 = RNASEQ$R1,
   read2 = RNASEQ$R2,
   bamOut = RNASEQ$BAM,
-  RefGTF = R7AGTF,
+  RefGTF = GenomeGTF,
   antisense = F
 )
 
@@ -94,66 +70,73 @@ countsObj <- makeCounts(
 StatsTable <- as.data.frame(x = countsObj$stat)
 write_tsv(StatsTable, path = "featureCounts.summary.txt")
 
-### Prepare DESeqDataSet object
+
+
+### Prepare DESeqDataSet object ###
 # Tidy the count data
 countData <- as.data.frame(countsObj$counts)
 colnames(countData) <- RNASEQ$sample
 countData$ID <- rownames(countData)
-countData <- countData %>% select(ID, R7A392A, R7A392B, R7A4510A, R7A4510B)
+countData <- countData %>% select(ID, everything())
 condition <- factor(RNASEQ$condition)
 
 # Merge the dds Object
-ddsR7A <- DESeqDataSetFromMatrix(countData, DataFrame(condition), ~ condition, tidy = T)
-head(ddsR7A@assays@data@listData[["counts"]])
+ddsObj <- DESeqDataSetFromMatrix(countData, DataFrame(condition), ~ condition, tidy = T)
+head(ddsObj@assays@data@listData[["counts"]])
 
-### Start DESeq2 DE Analysis
+
+
+### Start DESeq2 DE Analysis ###
 # Filter out features with no transcripts
-keep <- rowSums(counts(ddsR7A)) > 1
-ddsR7AFilter <- ddsR7A[keep,]
-nrow(ddsR7A)
-nrow(ddsR7AFilter)
+keep <- rowSums(counts(ddsObj)) > 1
+ddsObjFilter <- ddsObj[keep,]
+nrow(ddsObj)
+nrow(ddsObjFilter)
 
-# Make a regular log normalized counts table for cursor comparison
-rlogR7A <- rlog(ddsR7AFilter, blind = F)
-head(assay(rlogR7A), 10)
-rlogR7AsampleDist <- dist(t(assay(rlogR7A)))
-# Show the euclidean distance between samples at all genes after normlizaion
-rlogR7AsampleDist
-# The distances between samples is logical given the samples
+### Exploratory Analysis to Check Nothing Looks Unusual ###
+# Make a regular log normal counts table for cursory comparison
+rlogddsObj <- rlog(ddsR7AFilter, blind = F)
+head(assay(rlogddsObj), 10)
+rlogddsObjsampleDist <- dist(t(assay(rlogddsObj)))
+# Show the euclidean distance between samples at all genes after normalization
+rlogddsObjsampleDist
 
-# Go ahead with the DE analysis
-# DESeq 2 DE computation on the raw counts
-ddsR7AFilter <- DESeq(ddsR7AFilter)
+### Update DESeq2 commands with the appropriate options ###
+ddsObjFilter <- DESeq(ddsObjFilter)
 # Compute DE expression results object
-resR7AFilter <- results(
-  ddsR7AFilter,
-  contrast = c("condition", "R7AStar", "R7A"),
+resddsObjFilter <- results(
+  ddsObjFilter,
+  contrast = c("condition", "Treatment1", "Treatment2"), #Update Conditions
   cooksCutoff = F,
   test = "Wald",
   independentFiltering = F,
   pAdjustMethod = 'BH'
 )
 
-### Prepare Files to Export
-resOut <- as.data.frame(resR7AFilter)
+
+
+### Prepare Files to Export ###
+resOut <- as.data.frame(resddsObjFilter)
 resOut$ID <- row.names(resOut)
 resOut <- resOut %>% select(ID, baseMean, log2FoldChange, lfcSE, stat, pvalue, padj)
-normCounts <- as.data.frame(counts(ddsR7AFilter, normalized=T))
+normCounts <- as.data.frame(counts(ddsObjFilter, normalized=T))
 normCounts$ID <- row.names(normCounts)
+
+### Update column names in table to your samples ###
 normCounts <- normCounts %>% select(ID,
-                                    normalize.counts.R7A392A = R7A392A,
-                                    normalize.counts.R7A392B = R7A392B,
-                                    normalize.counts.R7A4510A = R7A4510A,
-                                    normalize.counts.R7A4510B = R7A4510B)
+                                    normalize.counts.SAMPLE1 = sample1,
+                                    normalize.counts.SAMPLE2 = sample2,
+                                    normalize.counts.SAMPLE3 = sample3,
+                                    normalize.counts.SAMPLE4 = sample4)
 
 DEout <- left_join(x = countData, y = normCounts, by = "ID")
 DEout <- left_join(x = DEout, y = resOut, by = "ID")
 
 # Read in KO annotations
-KO <- read_delim(file = "ref/R7A2020.KO.Detailed.txt", col_names = F, delim = "\t")
+KO <- read_delim(file = "ref/KO.Detailed.txt", col_names = F, delim = "\t")
 KO <- KO %>% select(ID = X1, KO = X2, Details = X3, KEGG.Score = X4, KO.Alt = X5, Alt.Score = X6)
 
-# Upating ID strings in DEout
+# Upating ID strings in DEout # modifies the gene IDs as they are returned when GFF is converted to GTF with RSEM
 NewIDS <- DEout$ID
 NewIDS <- as.data.frame(str_split(NewIDS, pattern = "-", simplify = T))
 DEout$ID <- NewIDS$V2
@@ -162,120 +145,14 @@ DEout$ID <- NewIDS$V2
 DEKO <- left_join(DEout, KO, by = "ID")
 DEKO$CC <- "#00cc00"
 
-# Assign color codes for criteria here
-DEKO$CC <- replace(x = DEKO$CC, DEKO$log2FoldChange > 0, "#ff0000")
-DEKO$CC <- replace(x = DEKO$CC, DEKO$log2FoldChange < 0, "#0000ff")
-DEKO$CC <- replace(x = DEKO$CC, DEKO$padj > 0.05, "#00cc00")
+# Assign color codes for criteria
+DEKO$CC <- replace(x = DEKO$CC, DEKO$log2FoldChange > 0, "#ff0000") #upregulated
+DEKO$CC <- replace(x = DEKO$CC, DEKO$log2FoldChange < 0, "#0000ff") #downregulated
+DEKO$CC <- replace(x = DEKO$CC, DEKO$padj > 0.05, "#00cc00") #reset those not significant
 
 # Print out master table
-write_delim(DEKO, path = "R7A.DE.results.rsubread.lfcT-0.CooksF.IndFiltF.txt", col_names = T, delim = "\t")
+write_delim(DEKO, path = "DE.results.rsubread.txt", col_names = T, delim = "\t")
 
 # Filter genes with no KO codes and print KEGG Mapper Input File
 KEGGMAP <- DEKO %>% filter(!is.na(KO)) %>% select(KO, CC)
-write_delim(KEGGMAP, path = "R7A.DE.results.rsubread.lfcT-0.CooksF.IndFiltF.KEGGMAP.txt", col_names = F, delim = "\t")
-
-
-### Compute DESeq2 Analysis for Antisense Transcription ###
-
-# Out put file paths based on the samples in the metadata file
-RNASEQ$BAM <- paste(RNASEQ$sample, "subjunc", "antisense", "sort", "bam", sep = ".")
-
-# Compute feature counts object for  samples
-countsObj <- makeCounts(
-  refIndex = R7A2020Index,
-  read1 = RNASEQ$R1,
-  read2 = RNASEQ$R2,
-  bamOut = RNASEQ$BAM,
-  RefGTF = R7AGTF,
-  antisense = T
-)
-
-# Print our featureCounts stats
-StatsTable <- as.data.frame(x = countsObj$stat)
-write_tsv(StatsTable, path = "featureCounts.summary.antisense.txt")
-
-### Prepare DESeqDataSet object
-# Tidy the count data
-countData <- as.data.frame(countsObj$counts)
-colnames(countData) <- RNASEQ$sample
-countData$ID <- rownames(countData)
-countData <-
-  countData %>% select(ID, R7A392A, R7A392B, R7A4510A, R7A4510B)
-condition <- factor(RNASEQ$condition)
-
-# Merge the dds Object
-ddsR7A <- DESeqDataSetFromMatrix(countData, DataFrame(condition), ~ condition, tidy = T)
-head(ddsR7A@assays@data@listData[["counts"]])
-
-### Start DESeq2 DE Analysis
-# Filter out features with no transcripts
-keep <- rowSums(counts(ddsR7A)) > 1
-ddsR7AFilter <- ddsR7A[keep,]
-nrow(ddsR7A)
-nrow(ddsR7AFilter)
-
-# Make a regular log normalized counts table for cursor comparison
-rlogR7A <- rlog(ddsR7AFilter, blind = F)
-head(assay(rlogR7A), 10)
-rlogR7AsampleDist <- dist(t(assay(rlogR7A)))
-# Show the euclidean distance between samples at all genes after normlizaion
-rlogR7AsampleDist
-# The distances between samples is logical given the samples
-
-# Go ahead with the DE analysis
-# DESeq 2 DE computation on the raw counts
-ddsR7AFilter <- DESeq(ddsR7AFilter)
-# Compute DE expression results object
-resR7AFilter <- results(
-  ddsR7AFilter,
-  contrast = c("condition", "R7AStar", "R7A"),
-  cooksCutoff = F,
-  test = "Wald",
-  independentFiltering = F,
-  pAdjustMethod = 'BH'
-)
-
-### Prepare Files to Export
-resOut <- as.data.frame(resR7AFilter)
-resOut$ID <- row.names(resOut)
-resOut <- resOut %>% select(ID, baseMean, log2FoldChange, lfcSE, stat, pvalue, padj)
-normCounts <- as.data.frame(counts(ddsR7AFilter, normalized=T))
-normCounts$ID <- row.names(normCounts)
-normCounts <- normCounts %>% select(ID, normalize.counts.R7A392A = R7A392A,
-                                    normalize.counts.R7A392B = R7A392B,
-                                    normalize.counts.R7A4510A = R7A4510A,
-                                    normalize.counts.R7A4510B = R7A4510B)
-DEout <- left_join(x = countData, y = normCounts, by = "ID")
-DEout <- left_join(x = DEout, y = resOut, by = "ID")
-
-# Read in KO annotations
-KO <- read_delim(file = "ref/R7A2020.KO.Detailed.txt", col_names = F, delim = "\t")
-KO <- KO %>% select(ID = X1, KO = X2, Details = X3, KEGG.Score = X4, KO.Alt = X5, Alt.Score = X6)
-
-# Upating ID strings in DEout
-NewIDS <- DEout$ID
-NewIDS <- as.data.frame(str_split(NewIDS, pattern = "-", simplify = T))
-DEout$ID <- NewIDS$V2
-
-# Merge annotations with DE out
-DEKO <- left_join(DEout, KO, by = "ID")
-DEKO$CC <- "#00cc00"
-
-# Assign color codes for criteria here
-DEKO$CC <- replace(x = DEKO$CC, DEKO$log2FoldChange > 0, "#ff0000")
-DEKO$CC <- replace(x = DEKO$CC, DEKO$log2FoldChange < 0, "#0000ff")
-DEKO$CC <- replace(x = DEKO$CC, DEKO$padj > 0.05, "#00cc00")
-
-# Print out master table
-write_delim(DEKO, path = "R7A.DE.results.rsubread.antisense.lfcT-0.CooksF.IndFiltF.txt", col_names = T, delim = "\t")
-
-# Filter genes with no KO codes and print KEGG Mapper Input File
-KEGGMAP <- DEKO %>% filter(!is.na(KO)) %>% select(KO, CC)
-write_delim(KEGGMAP, path = "R7A.DE.results.rsubread.antisense.lfcT-0.CooksF.IndFiltF.KEGGMAP.txt", col_names = F, delim = "\t")
-
-
-### filter outputs for making summary table ###
-
-system("grep -f loci.rsubread.txt R7A.DE.results.rsubread.lfcT-0.CooksF.IndFiltF.txt > R7AStar.DE.rsubread.out.summary.txt")
-system("grep -f loci.rsubread.txt R7A.DE.results.rsubread.antisense.lfcT-0.CooksF.IndFiltF.txt > R7AStar.DE.rsubread.antisense.out.summary.txt")
-system("rm *antisense.sort.bam*")
+write_delim(KEGGMAP, path = "DE.results.rsubread.KEGGMAP.txt", col_names = F, delim = "\t")
