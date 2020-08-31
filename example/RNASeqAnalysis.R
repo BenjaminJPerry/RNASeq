@@ -1,3 +1,10 @@
+# 2020 Benjamin J Perry - Attribution-NonCommercial-ShareAlike 4.0 International
+# (CC BY-NC-SA 4.0)
+# Version: 1.2.0
+# Maintainer: Benjamin J Perry
+# Email: benjamin.perry@postgrad.otago.ac.nz
+# Status: Functional
+
 list.files()
 library(tidyverse)
 library(Rsubread)
